@@ -1,0 +1,1097 @@
+{
+  "contract_version": "2.2.0",
+  "scope": "finite synthetic design/documentation checks; not enterprise runtime validation",
+  "checks": [
+    {
+      "id": "DOC_required_finding-disposition.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_required_architecture-changelog.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_required_revised-invariants.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_required_verification-matrix.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_required_remaining-decisions.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_required_final-corrections.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fourteen_dispositions",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR01",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR01",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR02",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR02",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR03",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR03",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR04",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR04",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR05",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR05",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR06",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR06",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR07",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR07",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR08",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR08",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR09",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR09",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR10",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR10",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR11",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR11",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR12",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR12",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR13",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR13",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_disposition_attributes_HR14",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_test_phase_HR14",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_C01_C16",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_S01_S09",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_version",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_verdict_Architecture approval",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_verdict_Synthetic prototyping",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_verdict_Staged implementation",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_verdict_Confidential-data integration",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_verdict_Production deployment",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_readiness_terms_rag-architecture-review.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_readiness_terms_rag-implementation-plan.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_readiness_terms_rag-readiness-assessment.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_readiness_terms_README.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_w07-conflicting-versions",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_W13",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_W14",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_W15",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_W16",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_trace_W17",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_minimal_lifecycle_before_CP3",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DESIGN_phase_DAG",
+      "status": "passed",
+      "detail": "declared dependency model, not code-import analysis"
+    },
+    {
+      "id": "DOC_fences_README.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-architecture-review.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-algorithm-decisions.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-data-contracts.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_evidence_hash_2",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_span_2",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_snapshot_fields",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_family_snapshot_binding",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_legal_claim_refs",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "JSON_claim_evidence_refs",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-security-design.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-evaluation-plan.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-failure-analysis.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-implementation-plan.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_rag-readiness-assessment.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_research-sources.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_verification.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/architecture-changelog.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/final-corrections.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/finding-disposition.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/remaining-decisions.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/revised-invariants.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_reconciliation/verification-matrix.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/algorithm-critique.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/alternative-architecture.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/go-no-go.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/hostile-review.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/integration-risks.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/re-review.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/required-changes.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_fences_review/security-red-team.md",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_links",
+      "status": "passed",
+      "detail": {
+        "links_checked": 145,
+        "broken": []
+      }
+    },
+    {
+      "id": "JSON_blocks",
+      "status": "passed",
+      "detail": {
+        "parsed_blocks": 6,
+        "scope": "JSON parse and targeted checks, not complete JSON Schema validation"
+      }
+    },
+    {
+      "id": "UNICODE_valid_88",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_valid_89",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_valid_90",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_valid_91",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_valid_92",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_93",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_94",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_95",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_96",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_97",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_negative_98",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "UNICODE_reorder_cluster",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR01_unpublished_reviewer",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR01_not_uploader",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR01_not_unsafe",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR01_ordinary_still_unpublished",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR02_preserve_warranty",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR02_partial_effect",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR02_future_effect",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR03_gate_order_model",
+      "status": "passed",
+      "detail": {
+        "schedules": 12,
+        "runtime_tested": false
+      }
+    },
+    {
+      "id": "HR03_expiry_no_epoch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR04_missing_member",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR04_equal_dimension_wrong_space",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR04_complete_shadow",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR05_sql_rollback_deny",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR05_restart_replay",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR06_epoch_retraction",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR06_interval",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR08_fair_300",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR08_duplicate_membership",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR08_reallocate_short",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR08_deterministic",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR08_oversize_whole_bundle",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR10_semantic_roots",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR10_pending_blocks_new_root",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR11_raster_arithmetic",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR11_budget_not_reset",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR13_interchangeable",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR13_and_exception",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR13_denied_bundle_not_shortened",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR13_abstain_one_answer_0",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR13_abstain_one_answer_1",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR14_intake_stop",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "HR14_capacity_headroom",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR_examples_version",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_manifest_hash",
+      "status": "passed",
+      "detail": "ASCII-only object keys/strings and Epoch strings; this fixture needs no general RFC8785 number implementation"
+    },
+    {
+      "id": "RR01_published_no_package",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_staged_capability_not_semantic",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_peer_without_read_denied",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_staged_package_on_published_rejects",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_wrong_release",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_stale_semantic_epoch",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_stale_document_revision",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_stale_prior_decision",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_unknown_decision",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_history_requires_separate_capability",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_classification_separate_authority",
+      "status": "passed",
+      "detail": "full downgrade/distinct-approver validation remains actual-policy acceptance"
+    },
+    {
+      "id": "RR01_literal_sketch_matrix",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_route_and_assignment_contract",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_replay_after_own_epoch_advance",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_replay_reauthorizes",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR01_replay_changed_payload",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_base_complete",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_pending_registry_cannot_be_silently_accepted",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_omitted_new_M2",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_extra_member",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_duplicate_member",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_pending_not_accepted",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_conflicting_not_accepted",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_future_included_now",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_exclusion_without_review",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_reviewed_exclusion",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_fresh_epoch_cannot_fix_old_head",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_missing_permission_including_exclusion",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_complete_permitted_replacement",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_mutation_contract",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_pending_membership_root_without_set",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR02_family_manifest_has_SQL_identity",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_union_deny_intent",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_hash_deny_intent",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_union_authority_commit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_hash_authority_commit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_one_operation_two_records",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_intent_only_SQL_rollback_keeps_deny",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_intent_retry_same_record",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_committed_checkpoint_missing_requires_reconcile",
+      "status": "passed",
+      "detail": "specification state requires sealing; no filesystem/SQL fault is executed"
+    },
+    {
+      "id": "RR03_reconcile_does_not_repeat_mutation",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_ack_loss_replays_existing_commit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_same_kind_payload_conflict",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_SQL_operation_payload_conflict",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_conflict_never_erases_deny",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_old_SQL_not_inferred_noncommit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_durable_identity_contract",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_rotation_keeps_lookup_scope",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR03_rotation_retry_finds_original",
+      "status": "passed",
+      "detail": "missing retained-key lookup must fail readiness, not allocate another operation"
+    },
+    {
+      "id": "RR04_separate_closed_enums",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_claim_exact_manifest_hash",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_live_document_retention_claim",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_rooted_past_TTL_not_claimed",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_tombstone_required_for_delete_kind",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_hold_before_claim_blocks_both",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_claim_before_root_or_hold_denies",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_pending_cancel_requires_no_claim",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_no_resurrection_transition",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_assigned_claim_manifest_only",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_no_arbitrary_purger_action",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_wrong_tenant_or_claim",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_retry_same_target_versions",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_widened_receipt_targets",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_physical_absence_required",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR04_schema_role_contract",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR05_prewarm_precedes_cutover_gate",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "RR05_expiry_wording",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_final_closure_RR01",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_final_closure_RR02",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_final_closure_RR03",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_final_closure_RR04",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "DOC_final_closure_RR05",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "PRESERVE_baseline",
+      "status": "passed",
+      "detail": {
+        "baseline_files": 404,
+        "unchanged": 387,
+        "permitted_changed": [
+          "ragplan/2/README.md",
+          "ragplan/2/rag-algorithm-decisions.md",
+          "ragplan/2/rag-architecture-review.md",
+          "ragplan/2/rag-data-contracts.md",
+          "ragplan/2/rag-evaluation-plan.md",
+          "ragplan/2/rag-failure-analysis.md",
+          "ragplan/2/rag-implementation-plan.md",
+          "ragplan/2/rag-readiness-assessment.md",
+          "ragplan/2/rag-security-design.md",
+          "ragplan/2/reconciliation/architecture-changelog.md",
+          "ragplan/2/reconciliation/finding-disposition.md",
+          "ragplan/2/reconciliation/remaining-decisions.md",
+          "ragplan/2/reconciliation/revised-invariants.md",
+          "ragplan/2/reconciliation/verification-matrix.md",
+          "ragplan/2/reconciliation/verification-results.json",
+          "ragplan/2/reconciliation/verify.py",
+          "ragplan/2/verification.md"
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "id": "PRESERVE_audit_and_revision1",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "id": "PRESERVE_no_production_change",
+      "status": "passed",
+      "detail": null
+    }
+  ],
+  "passed": 209,
+  "failed": 0,
+  "sql_probe_scope": "contract-check.sql executed separately; inspect verification.md for actual command/result",
+  "not_executed": [
+    "enterprise_RLS",
+    "ASGI_transport_faults",
+    "journal_durability_faults",
+    "OCR",
+    "neural_models",
+    "load",
+    "reviewer_batch",
+    "Playwright",
+    "Vitest"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "disposable synthetic PostgreSQL design excerpt; not enterprise schema/RLS/security validation",
+  "server_version": "PostgreSQL 18.4",
+  "encoding": "UTF8",
+  "transport": "temporary local Unix socket; no TCP listener",
+  "script": "ragplan/2/reconciliation/contract-check.sql",
+  "command": "psql -h /tmp/asa-rag-reconciliation-pg -p 55439 -d postgres -X -v ON_ERROR_STOP=1 -f ragplan/2/reconciliation/contract-check.sql",
+  "final_exit_code": 0,
+  "probes_passed": 17,
+  "probes_failed": 0,
+  "transaction": "ROLLBACK confirmed",
+  "temporary_server": "stopped; pg_ctl exit0",
+  "initial_failure": {
+    "exit_code": 3,
+    "case": "unpaired Unicode surrogate",
+    "expected_error_adjustment": "22P02 is also an invalid JSON Unicode surrogate error in PostgreSQL18.4; script corrected and fully rerun"
+  },
+  "not_executed": [
+    "complete enterprise migrations",
+    "enterprise RLS/context/pool",
+    "ASGI transport",
+    "journal/fsync fault schedules",
+    "load",
+    "OCR",
+    "neural inference",
+    "browser workflows"
+  ]
+}

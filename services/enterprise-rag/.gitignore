@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# Only reviewed, synthetic metadata belongs in docs/checkpoints/.
+.local/
+reports/
+

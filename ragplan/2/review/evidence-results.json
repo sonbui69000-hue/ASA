@@ -1,0 +1,303 @@
+{
+  "review_date": "2026-11-16",
+  "checker": "synthetic_review_evidence_v1",
+  "command": "python3 ragplan/2/review/evidence-check.py --baseline /tmp/asa-hostile-before.json",
+  "scope": "finite_synthetic_models_documentation_and_optional_preservation_only",
+  "not_executed_by_checker": [
+    "Vitest",
+    "Playwright",
+    "PostgreSQL",
+    "ASGI",
+    "OCR",
+    "neural_inference",
+    "security_integration",
+    "load",
+    "restore"
+  ],
+  "checks": [
+    {
+      "id": "DOC01",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "required_reports": 7
+      }
+    },
+    {
+      "id": "DOC02",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "broken_local_links": []
+      }
+    },
+    {
+      "id": "DOC03",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "unpaired_code_fences": []
+      }
+    },
+    {
+      "id": "DOC04",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "unique_ordered_findings": [
+          "HR01",
+          "HR02",
+          "HR03",
+          "HR04",
+          "HR05",
+          "HR06",
+          "HR07",
+          "HR08",
+          "HR09",
+          "HR10",
+          "HR11",
+          "HR12",
+          "HR13",
+          "HR14"
+        ]
+      }
+    },
+    {
+      "id": "DOC05",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "missing_finding_attributes": []
+      }
+    },
+    {
+      "id": "DOC06",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "algorithm_challenges": 32
+      }
+    },
+    {
+      "id": "DOC07",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "security_test_requirements": 21
+      }
+    },
+    {
+      "id": "DOC08",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "workflow_simulations": 15
+      }
+    },
+    {
+      "id": "M01",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "unpublished_review_needs_separate_predicate",
+        "literal_common_read": false
+      }
+    },
+    {
+      "id": "M02",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "partial_amendment",
+        "either_single_source_suffices": false,
+        "reviewed_source_composition_can_suffice": true
+      }
+    },
+    {
+      "id": "M03",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "unexcluded_lock_loss_schedule",
+        "trace": [
+          "A_authorizes_and_pauses",
+          "A_database_session_terminates_API_remains_alive",
+          "B_revokes_and_acknowledges",
+          "A_resumes_pending_unfenced_handoff"
+        ],
+        "actual_transport_exploit_tested": false
+      }
+    },
+    {
+      "id": "M04",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "equal_dimensions_do_not_establish_compatible_space",
+        "vectors": "synthetic_2D_counterexample_not_model_inference"
+      }
+    },
+    {
+      "id": "M05",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "fact_retraction_needs_semantic_invalidation",
+        "assumption": "semantic_change_not_wired_to_existing_snapshot_epochs"
+      }
+    },
+    {
+      "id": "M06",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "NFC_does_not_remove_NUL",
+        "code_points": 6,
+        "actual_PostgreSQL_roundtrip_tested": false
+      }
+    },
+    {
+      "id": "M07",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "disjoint_candidate_budget",
+        "maximum_before_cap": 300,
+        "global_cap": 120,
+        "missing_allocation_policy_not_an_observed_retrieval_loss": true
+      }
+    },
+    {
+      "id": "M08",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "interchangeable_evidence_vs_jointly_required",
+        "all_relevant_recall_at_10": 0.5,
+        "any_complete_alternative": true
+      }
+    },
+    {
+      "id": "M09",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "long_scan_envelope",
+        "extraction_mean_seconds_per_page_to_fit_45min": 13.5,
+        "uncompressed_RGB_A4_rasters_200_pages_GiB": 4.8614,
+        "assumed_raster_dimensions": [
+          2480,
+          3508
+        ],
+        "compressed_PNG_or_OCR_performance_measured": false
+      }
+    },
+    {
+      "id": "M10",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "raw_vector_lower_bound",
+        "80000_float32_384D_MiB": 117.1875,
+        "excludes": [
+          "row_metadata",
+          "indexes",
+          "WAL",
+          "backup",
+          "model_runtime",
+          "shadow_generation"
+        ]
+      }
+    },
+    {
+      "id": "M11",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "existing_unicode_example_credited",
+        "raw_cp": 4,
+        "nfc_cp": 3,
+        "nfc_UTF16_units": 4
+      }
+    },
+    {
+      "id": "M12",
+      "status": "passed",
+      "scope": "documentation_or_synthetic_model",
+      "detail": {
+        "case": "existing_synthetic_evidence_example_credited",
+        "fenced_JSON_blocks": 6,
+        "code_points": 48,
+        "hash_matches": true
+      }
+    },
+    {
+      "id": "PRESERVE01",
+      "status": "passed",
+      "scope": "file_integrity",
+      "detail": {
+        "status": "passed",
+        "scope": "review_time_tracked_files_and_preexisting_ragplan2_files",
+        "files_compared": 380,
+        "changed_or_missing": []
+      }
+    }
+  ],
+  "checks_passed": 21,
+  "checks_failed": 0,
+  "preservation": {
+    "status": "passed",
+    "scope": "review_time_tracked_files_and_preexisting_ragplan2_files",
+    "files_compared": 380,
+    "changed_or_missing": []
+  },
+  "input_sha256": {
+    "AGENTS.md": "a7cd8c71ee908f8ba64212dc15a5a1f5274965012d97d5caddbb70bdf8a8aa15",
+    "proposal.md": "56da417e44eafb9d4e5d16cec186af68cc258e6130a6b22be99252f80ca4db58",
+    "package.json": "9cb0b7e63189318b991c6825850d147b40f7bda7ea8ff56262d28956417a3875",
+    "package-lock.json": "00645a383cb8ed3952fb752f267694ac0e7d680ed6afe052da50bea6f45bea0b",
+    "ragplan/1/rag-plan-prompt.md": "590eef7cbb7534ac8f980c6e0ce5a7e998abf04df24ebe3d511bb468dd848ba3",
+    "ragplan/1/01-architecture.md": "99002f76a614a4407aa2750e7edeb288815edec0020b9452ce7ec8bf2bdf11f8",
+    "ragplan/1/02-technology-decisions.md": "e215b2659ae60dd09ee198b69f6abe77f489867b46d4c1d80b09c3776e070a9b",
+    "ragplan/1/03-processing-pipeline.md": "cfff1caf85854d5ebb5360c5e4cc2c8e74180cf5488adc94087e4ed671673782",
+    "ragplan/1/04-data-model.md": "19edcc758ebf1cd60ec1070aee574642e0860fad28ce9aafa27a653c82c1f6c4",
+    "ragplan/1/05-roadmap.md": "15d9745f25f95ad0185e7e9c923a194fc729c38383c91ba4a9ba1c2365fc46ef",
+    "ragplan/1/06-testing-benchmarking.md": "502103e6a21ecfa23a23d7b8a64ecdceb5202b3ba79be9223e39615524a2d379",
+    "ragplan/1/07-risks-decisions.md": "f7d326e2416f275b4f483db66713e2921c7807abcae679f8b277bc44b8486f08",
+    "ragplan/1/08-implementation-handoff.md": "09451afa037e246e0df9e04623d0cb41455c475a9b48b5c5f35e6dc1cfb9d769",
+    "ragplan/1/schemas/ragplan.schema.json": "697d9add310d46f2dd7fe315d079ff2bbecedb929f9ab7566c49d063af61eb25",
+    "ragplan/2/raghostile.md": "49af52c944b91667212f67be7070e4ff0de80719659d3c3f829f7e71a6bf0f52",
+    "ragplan/2/rag-plan-prompt-2.md": "634e8caadd185a9e82e86a070b196dd7d6fd27054f2e8599bbe4683d7cc27997",
+    "ragplan/2/rag-readiness-assessment.md": "ea4a076b02b56be5611a805a6b9290165b919d663d92171455b09bb371ac1d39",
+    "ragplan/2/rag-architecture-review.md": "8cdb489fff5266d177e3923f0961a6ed0101931e833dd8d918e37f3eff0b3ee1",
+    "ragplan/2/rag-algorithm-decisions.md": "bd2259c190d69163fffda7f3eece579ca72bb458ce9a72da079a2312ef20b617",
+    "ragplan/2/rag-data-contracts.md": "9a81b028b97edd25fb8c6964e462d38bc1169f07a891630954fa6d590af55638",
+    "ragplan/2/rag-security-design.md": "fd31f93fb1f481cf3ecab18cb7e7f2e47266ead033534bb5b572c617b899c3f5",
+    "ragplan/2/rag-evaluation-plan.md": "ac5b1d605b14a7bac93d26ddbf38e4603bd7d1512c0b3aa5d7481561a3064575",
+    "ragplan/2/rag-failure-analysis.md": "f97de03df6826d49c876bf62d4e77803270c6d9860ad235cd3e40b1ad8b3a86b",
+    "ragplan/2/rag-implementation-plan.md": "c41a5153e7c5403e924daa0fbe334ff057962b96633418ce58632f2ef3e30d36",
+    "server/rag/chunks.ts": "c137341312358045d321857121fcc16b59af09604082e07b64ec2f51a04fd3ab",
+    "server/rag/retrieval.ts": "e17dd60b71e90bca0544f17e018866db5337c0164f64fa7346b315709773f704",
+    "server/rag/embeddings.ts": "1bf6c651eb14ca72d1eecb8210303d4af2569cecaa3e31b5a5352b746659d702",
+    "server/rag/generation.ts": "30d495f7ca570e7bc5e3c911c7f88b1116a1ff7770c9c19290c7ee54866d35b4",
+    "server/state.ts": "4b9922cb497b419b497cdd19a03d22a34f11b344315c36f07e9a79a467f186ed",
+    "server/assistant.ts": "a839b15c323cb9f4aae93376f31884bc976bfa95287c8608c7bc1d005ff2d0b9",
+    "server/http.ts": "746f3b0e11419861ed85956b3123ca3642063280fab4389e5a87b3c718544e02",
+    "server/workspace-lock.ts": "939d11711ff9828e619b381f5ff754b29f68a584e4f4e2f30e7ed436a09aaa70",
+    "server/auth.ts": "553e78b18ddb07367ebf0abba4243e51776a5450e04f532a716eb015af7f6cda",
+    "scripts/provision-rag-model.mjs": "b142139937eaa66c04fa1761ae92a1de5fe8ef56ee05696fca427b75b94e8942",
+    "vite.server.config.ts": "8aab40cfe254423879ec9ee0ed7d052d2637a0d6cef54d9b650e6c802f83b693",
+    "vite.e2e.config.ts": "4ffe0105f8841c2a87bc61f4995703613bb8eaae0295f00a37b8a8403f447bc5"
+  },
+  "review_sha256": {
+    "hostile-review.md": "40ce9f8693241921f303a77c9de48240f0b833175b14fc156706868f6c48474e",
+    "algorithm-critique.md": "5c8bed7613fa4b947d1bc37bd0d7feb3e2916b842a5e03c2979362dc6246fc29",
+    "security-red-team.md": "86b438ed79ae746747a45f8d0308a7c94e2aea8c38f581eb02065603c801ca88",
+    "integration-risks.md": "751b22318e274e07f27516032dad0205cedbdf659314c77f10648910d13b90d9",
+    "alternative-architecture.md": "202b72e1f41c4a76a00f137975c6fcc7f2b64630906fedeeb2bf60b4a9bee80b",
+    "required-changes.md": "685552d6d013df9915c32b84526710577b9c8b8a2ad596a5bf06fafcb7bbfbc3",
+    "go-no-go.md": "2f918f8c2bb9b730212fd78a9e19342de532b040faeb81909469b8fab2403b33",
+    "evidence-check.py": "2cd43bde593b43e35afd0728a145bfa80800fc7743dacaf1ffa2b132b39054ef"
+  },
+  "exit_code": 0
+}

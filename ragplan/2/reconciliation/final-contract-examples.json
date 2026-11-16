@@ -1,0 +1,116 @@
+{
+  "contract_version": "2.2.0",
+  "scope": "independent synthetic documentation scenarios; not runtime/model output",
+  "published_review": {
+    "method": "POST",
+    "path": "/api/enterprise-rag/v2/documents/00000000-0000-4000-8000-000000000101/published-reviews",
+    "headers": {
+      "If-Match": "8",
+      "Idempotency-Key": "SYN-RR01-001"
+    },
+    "body": {
+      "subject": {
+        "kind": "published",
+        "document_id": "00000000-0000-4000-8000-000000000101",
+        "version_id": "00000000-0000-4000-8000-000000000201",
+        "extraction_id": "00000000-0000-4000-8000-000000000301",
+        "rendition_id": "00000000-0000-4000-8000-000000000401",
+        "release_id": "00000000-0000-4000-8000-000000000601",
+        "release_scope": "current"
+      },
+      "expected_semantic_epoch": "9",
+      "prior_decision_ids": [
+        "00000000-0000-4000-8000-000000000971"
+      ],
+      "decision": {
+        "kind": "fact_retract",
+        "field_id": "00000000-0000-4000-8000-000000000951"
+      },
+      "reason_code": "WRONG_INSTALLMENT"
+    }
+  },
+  "membership_manifest": {
+    "family_id": "00000000-0000-4000-8000-000000000811",
+    "membership_revision": "1",
+    "prior_membership_revision": null,
+    "entries": [
+      {
+        "document_id": "00000000-0000-4000-8000-000000000101",
+        "instrument_kind": "original",
+        "relation_state": "reviewed",
+        "relation_decision_id": null,
+        "current_release_id": "00000000-0000-4000-8000-000000000601"
+      }
+    ],
+    "registration_decision_ids": [
+      "00000000-0000-4000-8000-000000001814"
+    ],
+    "membership_hash": "0047ba8ac2e8202feea91c2827a17ab60dfb81d3700544b25e7e1c82831434b6"
+  },
+  "journal_records": [
+    {
+      "operation_id": "00000000-0000-4000-8000-000000000880",
+      "tenant_id": "00000000-0000-4000-8000-000000000001",
+      "command_digest": "1a6ba01402317d3bf8e416710cbffa94791242af6fce3529c4378b3f3237ac48",
+      "idempotency_scope_digest": "d101c269e80bdfd0e51aa36f4458f30fd3b9ee0ab55c0bb87d82a054c4bdf3eb",
+      "digest_key_revision": "00000000-0000-4000-8000-000000000017",
+      "record_id": "00000000-0000-4000-8000-000000000881",
+      "entry_kind": "deny_intent",
+      "sequence": "1",
+      "previous_entry_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "created_at": "2026-11-16T03:01:00Z",
+      "document_id": "00000000-0000-4000-8000-000000000101",
+      "requested_by_id": "00000000-0000-4000-8000-000000000002",
+      "reason_code": "AUTHORIZED_DELETE",
+      "expected_document_revision": "8",
+      "entry_hash": "9dfc6b73df3c89e5be762ac6c399a111ad532df7eb9276594aa6de8747e44d75"
+    },
+    {
+      "operation_id": "00000000-0000-4000-8000-000000000880",
+      "tenant_id": "00000000-0000-4000-8000-000000000001",
+      "command_digest": "1a6ba01402317d3bf8e416710cbffa94791242af6fce3529c4378b3f3237ac48",
+      "idempotency_scope_digest": "d101c269e80bdfd0e51aa36f4458f30fd3b9ee0ab55c0bb87d82a054c4bdf3eb",
+      "digest_key_revision": "00000000-0000-4000-8000-000000000017",
+      "record_id": "00000000-0000-4000-8000-000000000882",
+      "entry_kind": "authority_commit",
+      "sequence": "2",
+      "previous_entry_hash": "9dfc6b73df3c89e5be762ac6c399a111ad532df7eb9276594aa6de8747e44d75",
+      "created_at": "2026-11-16T03:01:01Z",
+      "authority_revision": "18",
+      "auth_epoch": "18",
+      "semantic_epoch": "10",
+      "corpus_epoch": "23",
+      "corpus_revision": "5",
+      "auth_head_hash": "acb43665198e7cab8617f07deb4705dc54b68d59e2cb1ccb84608a4f7be25b0e",
+      "semantic_head_hash": "d260944ca99b3e126187a5ba73868c1f080a02941eaea700a59aaf3b1f0b0b55",
+      "corpus_head_hash": "1458170049e06170164c766f098562268010465ef18af98b80114ba2cdde740e",
+      "policy_revision": "00000000-0000-4000-8000-000000000017",
+      "key_revision": "00000000-0000-4000-8000-000000000017",
+      "deployment_incarnation": "00000000-0000-4000-8000-000000000802",
+      "result_ref": "00000000-0000-4000-8000-000000000883",
+      "intent_record_id": "00000000-0000-4000-8000-000000000881",
+      "entry_hash": "b311aaf4a561e950065b2763df2917cf557f4c578f37c0515636b051da0512ad"
+    }
+  ],
+  "gc_claim": {
+    "tenant_id": "00000000-0000-4000-8000-000000000001",
+    "id": "00000000-0000-4000-8000-000000000890",
+    "artifact_id": "00000000-0000-4000-8000-000000000891",
+    "document_id": "00000000-0000-4000-8000-000000000101",
+    "kind": "retention",
+    "target_manifest_hash": "36d419ef917b6cd58a8b30211c5dad515b3ab09937ca9f2e682af3c68c1dc54e",
+    "root_revision": "12",
+    "gc_revision": "2",
+    "hold_revision": "0",
+    "tombstone_revision": null,
+    "operation_id": "00000000-0000-4000-8000-000000000892",
+    "state": "issued"
+  },
+  "gc_target_manifest": [
+    {
+      "storage_key": "opaque/syn-891",
+      "storage_version": "synthetic-v1",
+      "sha256": "1fb4f2f3c9583130d9856bfc55de53cabd25d583275a3505237e7f7938171c67"
+    }
+  ]
+}
