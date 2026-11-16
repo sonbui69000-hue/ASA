@@ -1,0 +1,61 @@
+{
+  "research_date": "2026-11-15",
+  "currency": "USD",
+  "status": "illustrative_estimates_not_measurements",
+  "documents_per_scenario": [
+    100,
+    1000
+  ],
+  "pages_per_document": 10,
+  "chunks_per_page": 8,
+  "seconds_unit": "occupied wall-clock seconds of the allocated worker; not summed core CPU seconds",
+  "cpu_worker_usd_per_hour": 0.12,
+  "gpu_worker_usd_per_hour": 0.75,
+  "shared_overhead_seconds_per_document": 3,
+  "embedding_seconds_per_chunk": 0.03,
+  "native_seconds_per_page": 0.5,
+  "layout_seconds_per_page": 4,
+  "ocr_plus_layout_seconds_per_page": 14,
+  "vlm_gpu_seconds_per_page": 20,
+  "selective_vlm_page_fraction": 0.05,
+  "cloud_ocr_usd_per_1000_pages": 1.5,
+  "cloud_layout_usd_per_1000_pages": 10,
+  "cloud_price_source": "https://cloud.google.com/products/document-ai/pricing",
+  "cloud_price_basis": "gross regular paid rates; ignore free allowance, discounts, regional differences and add-ons; verify selected SKU at procurement",
+  "hosted_vlm_illustration": {
+    "provider": null,
+    "price_is_verified_market_quote": false,
+    "input_tokens_per_page": 4000,
+    "output_tokens_per_page": 750,
+    "input_usd_per_million_tokens": 0.5,
+    "output_usd_per_million_tokens": 2,
+    "image_tokenization": "provider-dependent; assumed token count is illustrative"
+  },
+  "review_fraction": 0.1,
+  "review_minutes_per_document": 2,
+  "reviewer_usd_per_hour": 18,
+  "reserved_hours_per_month": 730,
+  "storage_backup_allowance_usd_per_month": 30,
+  "fixed_cpu_host_usd_per_month": 87.6,
+  "fixed_host_plus_storage_backup_usd_per_month": 117.6,
+  "fixed_gpu_usd_per_month": 547.5,
+  "exclude_from_incremental_rows": [
+    "reserved idle capacity",
+    "storage/backup",
+    "labor",
+    "identity",
+    "security operations",
+    "software/model commercial licenses",
+    "tax",
+    "redundancy",
+    "retries"
+  ],
+  "sensitivity_timing_multipliers": [
+    0.5,
+    2,
+    5
+  ],
+  "all_external_inference_disabled": true,
+  "formula": "CPU USD = documents * (pages_per_document * stage_seconds_per_page + shared_overhead_seconds_per_document + pages_per_document * chunks_per_page * embedding_seconds_per_chunk) / 3600 * cpu_worker_usd_per_hour; GPU/API costs added separately",
+  "reservation_accounting": "Do not add CPU allocation costs to the cost of the same reserved host. Review and genuinely additional GPU/API costs remain additional."
+}

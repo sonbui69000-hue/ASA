@@ -1,0 +1,289 @@
+{
+  "kind": "chunk",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "extraction_revision": "extraction-001",
+  "chunk_id": "chunk-synthetic-001",
+  "generation_id": "generation-001",
+  "rendition_id": "rendition-raw-001",
+  "parent_element_id": "heading-payment",
+  "chunk_type": "table_rows",
+  "text": "Đợt 1; Giá trị thanh toán: 125.000.000 VND",
+  "contextualized_text": "passage: HỢP ĐỒNG MẪU > Điều 2. Thanh toán > Bảng 1 — Thanh toán (VND). Đợt: Đợt 1; Giá trị thanh toán: 125.000.000 VND.",
+  "token_count": null,
+  "tokenizer_revision": null,
+  "section_path": [
+    "title-001",
+    "heading-payment"
+  ],
+  "source_refs": [
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "title-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        50,
+        545,
+        80
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": {
+        "start": 0,
+        "end": 12
+      },
+      "table_id": null,
+      "cell_ids": []
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "heading-payment",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        165,
+        545,
+        190
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": {
+        "start": 0,
+        "end": 18
+      },
+      "table_id": null,
+      "cell_ids": []
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        220,
+        545,
+        260
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": [
+        "cell-0-0"
+      ]
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        260,
+        250,
+        300
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": [
+        "cell-1-0"
+      ]
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        250,
+        260,
+        545,
+        300
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": [
+        "cell-1-1"
+      ]
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        300,
+        250,
+        340
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": [
+        "cell-2-0"
+      ]
+    },
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        250,
+        300,
+        545,
+        340
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": [
+        "cell-2-1"
+      ]
+    }
+  ],
+  "table_projection": {
+    "table_id": "table-001",
+    "row_indices": [
+      2
+    ],
+    "cell_ids": [
+      "cell-2-0",
+      "cell-2-1"
+    ],
+    "header_cell_ids": [
+      "cell-0-0",
+      "cell-1-0",
+      "cell-1-1"
+    ]
+  },
+  "authorization": {
+    "inherit_document": true,
+    "restriction_scope_ids": [],
+    "effective_handling": "restricted",
+    "permission_epoch_at_build": 1
+  },
+  "embedding": {
+    "model_id": "intfloat/multilingual-e5-small",
+    "model_revision": null,
+    "dimension": 384,
+    "normalized": true,
+    "input_sha256": null,
+    "status": "pending",
+    "vector_ref": null
+  },
+  "warning_codes": [
+    "STAGING_ONLY_NOT_TOKENIZED_OR_EMBEDDED"
+  ]
+}

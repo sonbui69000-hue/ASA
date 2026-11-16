@@ -1,0 +1,46 @@
+import { defineConfig, devices } from "@playwright/test";
+export default defineConfig({
+  testDir: "./tests/e2e",
+  testMatch: "online.spec.ts",
+  workers: 1,
+  fullyParallel: false,
+  retries: 0,
+  timeout: 60000,
+  expect: { timeout: 7000 },
+  outputDir: "output/playwright-online/results",
+  reporter: [
+    ["list"],
+    ["json", { outputFile: "output/playwright-online/report.json" }],
+    ["html", { outputFolder: "output/playwright-online/html", open: "never" }],
+  ],
+  use: {
+    baseURL: "http://127.0.0.1:8080",
+    locale: "vi-VN",
+    timezoneId: "Asia/Bangkok",
+    reducedMotion: "reduce",
+    trace: "retain-on-failure",
+    screenshot: "only-on-failure",
+    launchOptions: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE
+      ? { executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE }
+      : {},
+  },
+  projects: [
+    {
+      name: "online-desktop",
+      use: {
+        ...devices["Desktop Chrome"],
+        viewport: { width: 1440, height: 1000 },
+      },
+    },
+    {
+      name: "online-mobile",
+      use: { ...devices["Pixel 7"], defaultBrowserType: "chromium" },
+    },
+  ],
+  webServer: {
+    command: "npm run build:e2e-server && node dist-test-server/index.js",
+    url: "http://127.0.0.1:8080/api/accounts",
+    timeout: 20000,
+    reuseExistingServer: false,
+  },
+});

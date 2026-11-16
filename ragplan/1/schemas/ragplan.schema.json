@@ -1,0 +1,417 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.example.invalid/ragplan/1.0.0",
+  "title": "Enterprise RAG planning contracts",
+  "description": "Design contracts, not an implemented application. Source geometry, cross-record integrity, authorization and factual correctness require semantic validation.",
+  "oneOf": [
+    {"$ref": "#/$defs/document"},
+    {"$ref": "#/$defs/classification"},
+    {"$ref": "#/$defs/parsed_document"},
+    {"$ref": "#/$defs/table"},
+    {"$ref": "#/$defs/contract"},
+    {"$ref": "#/$defs/pii_annotation"},
+    {"$ref": "#/$defs/chunk"},
+    {"$ref": "#/$defs/job"},
+    {"$ref": "#/$defs/audit_event"}
+  ],
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"},
+    "nullable_id": {"oneOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "nullable_timestamp": {"oneOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "decimal": {"type": "string", "pattern": "^-?(0|[1-9][0-9]*)(\\.[0-9]+)?$"},
+    "sensitivity": {"enum": ["public", "internal", "confidential", "restricted", "unknown"]},
+    "handling": {"enum": ["public", "internal", "confidential", "restricted"]},
+    "document_type": {"enum": ["contract", "report", "policy", "financial_record", "administrative", "general", "other", "unknown"]},
+    "warnings": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{0,95}$"}, "uniqueItems": true},
+    "confidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["raw_score", "raw_scale", "grade", "calibrated_probability", "calibration_id"],
+      "properties": {
+        "raw_score": {"type": ["number", "null"]},
+        "raw_scale": {"enum": ["probability_0_1", "tesseract_0_100", "rule_0_1", "engine_specific", "not_available"]},
+        "grade": {"enum": ["poor", "fair", "good", "excellent", null]},
+        "calibrated_probability": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "calibration_id": {"$ref": "#/$defs/nullable_id"}
+      },
+      "allOf": [
+        {"if": {"properties": {"calibrated_probability": {"type": "number"}}}, "then": {"properties": {"calibration_id": {"$ref": "#/$defs/id"}}}},
+        {"if": {"properties": {"raw_scale": {"const": "not_available"}}}, "then": {"properties": {"raw_score": {"type": "null"}}}},
+        {"if": {"properties": {"raw_scale": {"enum": ["probability_0_1", "rule_0_1"]}}}, "then": {"properties": {"raw_score": {"type": ["number", "null"], "minimum": 0, "maximum": 1}}}},
+        {"if": {"properties": {"raw_scale": {"const": "tesseract_0_100"}}}, "then": {"properties": {"raw_score": {"type": ["number", "null"], "minimum": 0, "maximum": 100}}}}
+      ]
+    },
+    "bbox": {
+      "type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}],
+      "items": false, "minItems": 4, "maxItems": 4,
+      "description": "x0,y0,x1,y1 in upright visible page points, top-left origin. Bounds and ordering require semantic validation."
+    },
+    "page_size": {"type": "array", "items": {"type": "number", "exclusiveMinimum": 0}, "minItems": 2, "maxItems": 2},
+    "transform": {"type": "array", "items": {"type": "number"}, "minItems": 6, "maxItems": 6},
+    "span": {
+      "type": "object", "additionalProperties": false, "required": ["start", "end"],
+      "properties": {"start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 0}},
+      "description": "Half-open Unicode code-point offsets in immutable NFC element text; start <= end <= text length is checked semantically."
+    },
+    "docx_locator": {
+      "type": "object", "additionalProperties": false, "required": ["part", "xpath", "paragraph_id"],
+      "properties": {
+        "part": {"type": "string", "pattern": "^word/[A-Za-z0-9_./-]+\\.xml$", "maxLength": 256},
+        "xpath": {"type": "string", "minLength": 1, "maxLength": 2048},
+        "paragraph_id": {"type": ["string", "null"], "maxLength": 128}
+      }
+    },
+    "source_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["document_id", "version_id", "extraction_revision", "element_id", "medium", "page_number", "bbox", "page_size", "coordinate_system", "transform_to_original", "docx_locator", "span", "table_id", "cell_ids"],
+      "properties": {
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"},
+        "extraction_revision": {"$ref": "#/$defs/id"}, "element_id": {"$ref": "#/$defs/id"},
+        "medium": {"enum": ["pdf", "docx"]},
+        "page_number": {"type": ["integer", "null"], "minimum": 1},
+        "bbox": {"oneOf": [{"$ref": "#/$defs/bbox"}, {"type": "null"}]},
+        "page_size": {"oneOf": [{"$ref": "#/$defs/page_size"}, {"type": "null"}]},
+        "coordinate_system": {"enum": ["upright_cropbox_top_left_points", null]},
+        "transform_to_original": {"oneOf": [{"$ref": "#/$defs/transform"}, {"type": "null"}]},
+        "docx_locator": {"oneOf": [{"$ref": "#/$defs/docx_locator"}, {"type": "null"}]},
+        "span": {"oneOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+        "table_id": {"$ref": "#/$defs/nullable_id"},
+        "cell_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true}
+      },
+      "allOf": [
+        {"if": {"properties": {"medium": {"const": "pdf"}}}, "then": {"properties": {
+          "page_number": {"type": "integer", "minimum": 1}, "bbox": {"$ref": "#/$defs/bbox"},
+          "page_size": {"$ref": "#/$defs/page_size"}, "coordinate_system": {"const": "upright_cropbox_top_left_points"},
+          "transform_to_original": {"$ref": "#/$defs/transform"}, "docx_locator": {"type": "null"}
+        }}},
+        {"if": {"properties": {"medium": {"const": "docx"}}}, "then": {"properties": {
+          "page_number": {"type": "null"}, "bbox": {"type": "null"}, "page_size": {"type": "null"},
+          "coordinate_system": {"type": "null"}, "transform_to_original": {"type": "null"}, "docx_locator": {"$ref": "#/$defs/docx_locator"}
+        }}},
+        {"if": {"properties": {"cell_ids": {"minItems": 1}}}, "then": {"properties": {"table_id": {"$ref": "#/$defs/id"}}}}
+      ]
+    },
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}, "minItems": 1},
+    "artifact_ref": {
+      "type": "object", "additionalProperties": false, "required": ["artifact_id", "storage_key", "sha256", "bytes"],
+      "properties": {
+        "artifact_id": {"$ref": "#/$defs/id"}, "storage_key": {"type": "string", "minLength": 1, "maxLength": 1024},
+        "sha256": {"$ref": "#/$defs/sha256"}, "bytes": {"type": "integer", "minimum": 0}
+      },
+      "description": "Internal storage manifest reference; storage keys are not returned in ordinary search APIs."
+    },
+    "document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "version_number", "created_at", "created_by", "department_id", "display_filename", "title", "detected_format", "pdf_nature", "page_count", "original", "processing_state", "effective_sensitivity", "permission_epoch", "active_generation_id", "retention_policy_id", "legal_hold", "deleted_at"],
+      "properties": {
+        "kind": {"const": "document"}, "schema_version": {"const": "1.0.0"},
+        "tenant_id": {"$ref": "#/$defs/id"}, "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"},
+        "version_number": {"type": "integer", "minimum": 1}, "created_at": {"$ref": "#/$defs/timestamp"},
+        "created_by": {"$ref": "#/$defs/id"}, "department_id": {"$ref": "#/$defs/id"},
+        "display_filename": {"type": "string", "minLength": 1, "maxLength": 255},
+        "title": {"type": ["string", "null"], "maxLength": 1000},
+        "detected_format": {"enum": ["pdf", "docx"]},
+        "pdf_nature": {"enum": ["digital", "scanned", "hybrid", "unknown", "not_applicable"]},
+        "page_count": {"type": ["integer", "null"], "minimum": 1}, "original": {"$ref": "#/$defs/artifact_ref"},
+        "processing_state": {"enum": ["received", "quarantined", "validating", "extracting", "enriching", "needs_review", "indexing", "retry_wait", "ready", "rejected", "failed", "deleting", "deleted"]},
+        "effective_sensitivity": {"$ref": "#/$defs/handling"}, "permission_epoch": {"type": "integer", "minimum": 1},
+        "active_generation_id": {"$ref": "#/$defs/nullable_id"}, "retention_policy_id": {"$ref": "#/$defs/id"},
+        "legal_hold": {"type": "boolean"}, "deleted_at": {"$ref": "#/$defs/nullable_timestamp"}
+      },
+      "allOf": [
+        {"if": {"properties": {"detected_format": {"const": "docx"}}}, "then": {"properties": {"pdf_nature": {"const": "not_applicable"}, "page_count": {"type": "null"}}}},
+        {"if": {"properties": {"processing_state": {"const": "ready"}}}, "then": {"properties": {"active_generation_id": {"$ref": "#/$defs/id"}}}}
+      ]
+    },
+    "classification": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "decision_revision", "document_type", "sensitivity"],
+      "properties": {
+        "kind": {"const": "classification"}, "schema_version": {"const": "1.0.0"},
+        "tenant_id": {"$ref": "#/$defs/id"}, "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"},
+        "decision_revision": {"$ref": "#/$defs/id"},
+        "document_type": {
+          "type": "object", "additionalProperties": false, "required": ["label", "method", "method_revision", "confidence", "evidence"],
+          "properties": {
+            "label": {"$ref": "#/$defs/document_type"}, "method": {"enum": ["rules", "classifier", "local_model", "reviewer"]},
+            "method_revision": {"$ref": "#/$defs/id"}, "confidence": {"$ref": "#/$defs/confidence"},
+            "evidence": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}}
+          }
+        },
+        "sensitivity": {
+          "type": "object", "additionalProperties": false,
+          "required": ["claimed_label", "predicted_label", "approved_label", "effective_handling", "authority", "policy_id", "confidence", "review_status", "reviewer_id", "reason_codes", "external_processing_allowed"],
+          "properties": {
+            "claimed_label": {"$ref": "#/$defs/sensitivity"}, "predicted_label": {"$ref": "#/$defs/sensitivity"},
+            "approved_label": {"oneOf": [{"$ref": "#/$defs/handling"}, {"type": "null"}]},
+            "effective_handling": {"$ref": "#/$defs/handling"},
+            "authority": {"enum": ["none", "trusted_source", "reviewer"]}, "policy_id": {"$ref": "#/$defs/id"},
+            "confidence": {"$ref": "#/$defs/confidence"}, "review_status": {"enum": ["not_required", "pending", "approved", "rejected"]},
+            "reviewer_id": {"$ref": "#/$defs/nullable_id"}, "reason_codes": {"$ref": "#/$defs/warnings"},
+            "external_processing_allowed": {"const": false}
+          },
+          "allOf": [
+            {"if": {"properties": {"authority": {"const": "none"}}}, "then": {"properties": {"approved_label": {"type": "null"}, "effective_handling": {"const": "restricted"}, "review_status": {"const": "pending"}}}},
+            {"if": {"properties": {"authority": {"const": "reviewer"}}}, "then": {"properties": {"reviewer_id": {"$ref": "#/$defs/id"}}}},
+            {"if": {"properties": {"approved_label": {"const": "restricted"}}}, "then": {"properties": {"effective_handling": {"const": "restricted"}}}},
+            {"if": {"properties": {"approved_label": {"const": "confidential"}}}, "then": {"properties": {"effective_handling": {"enum": ["confidential", "restricted"]}}}},
+            {"if": {"properties": {"approved_label": {"const": "internal"}}}, "then": {"properties": {"effective_handling": {"enum": ["internal", "confidential", "restricted"]}}}}
+          ]
+        }
+      }
+    },
+    "page": {
+      "type": "object", "additionalProperties": false, "required": ["page_number", "width_points", "height_points", "route", "confidence", "warning_codes"],
+      "properties": {
+        "page_number": {"type": "integer", "minimum": 1}, "width_points": {"type": "number", "exclusiveMinimum": 0},
+        "height_points": {"type": "number", "exclusiveMinimum": 0}, "route": {"enum": ["native", "ocr", "hybrid", "blank", "unresolved"]},
+        "confidence": {"$ref": "#/$defs/confidence"}, "warning_codes": {"$ref": "#/$defs/warnings"}
+      }
+    },
+    "element": {
+      "type": "object", "additionalProperties": false,
+      "required": ["element_id", "element_type", "parent_id", "reading_order", "text", "heading_level", "section_path", "table_id", "source_refs", "confidence", "warning_codes"],
+      "properties": {
+        "element_id": {"$ref": "#/$defs/id"},
+        "element_type": {"enum": ["heading", "paragraph", "list_item", "table", "figure", "caption", "key_value", "signature_block", "stamp", "header", "footer", "footnote"]},
+        "parent_id": {"$ref": "#/$defs/nullable_id"}, "reading_order": {"type": "integer", "minimum": 0},
+        "text": {"type": ["string", "null"], "maxLength": 2000000},
+        "heading_level": {"type": ["integer", "null"], "minimum": 1, "maximum": 6},
+        "section_path": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "table_id": {"$ref": "#/$defs/nullable_id"},
+        "source_refs": {"$ref": "#/$defs/evidence"}, "confidence": {"$ref": "#/$defs/confidence"}, "warning_codes": {"$ref": "#/$defs/warnings"}
+      },
+      "allOf": [
+        {"if": {"properties": {"element_type": {"const": "table"}}}, "then": {"properties": {"table_id": {"$ref": "#/$defs/id"}}}},
+        {"if": {"properties": {"element_type": {"const": "heading"}}}, "then": {"properties": {"text": {"type": "string", "minLength": 1}}}}
+      ]
+    },
+    "relation": {
+      "type": "object", "additionalProperties": false, "required": ["from_id", "to_id", "relation_type"],
+      "properties": {
+        "from_id": {"$ref": "#/$defs/id"}, "to_id": {"$ref": "#/$defs/id"},
+        "relation_type": {"enum": ["contains", "precedes", "caption_for", "refers_to", "clause_applies_to_table", "continued_from", "signatory_role_for"]}
+      }
+    },
+    "parsed_document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "extraction_revision", "format", "producer", "normalization", "pages", "elements", "relations", "warning_codes"],
+      "properties": {
+        "kind": {"const": "parsed_document"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"}, "extraction_revision": {"$ref": "#/$defs/id"},
+        "format": {"enum": ["pdf", "docx"]},
+        "producer": {
+          "type": "object", "additionalProperties": false, "required": ["adapter_id", "package_revision", "model_revision", "config_sha256"],
+          "properties": {"adapter_id": {"$ref": "#/$defs/id"}, "package_revision": {"type": "string", "minLength": 1}, "model_revision": {"type": ["string", "null"]}, "config_sha256": {"$ref": "#/$defs/sha256"}}
+        },
+        "normalization": {
+          "type": "object", "additionalProperties": false, "required": ["unicode_form", "offset_unit", "offset_map_artifact_id"],
+          "properties": {"unicode_form": {"const": "NFC"}, "offset_unit": {"const": "unicode_code_point"}, "offset_map_artifact_id": {"$ref": "#/$defs/id"}}
+        },
+        "pages": {"type": "array", "items": {"$ref": "#/$defs/page"}},
+        "elements": {"type": "array", "items": {"$ref": "#/$defs/element"}, "minItems": 1},
+        "relations": {"type": "array", "items": {"$ref": "#/$defs/relation"}}, "warning_codes": {"$ref": "#/$defs/warnings"}
+      },
+      "allOf": [
+        {"if": {"properties": {"format": {"const": "docx"}}}, "then": {"properties": {"pages": {"maxItems": 0}}}},
+        {"if": {"properties": {"format": {"const": "pdf"}}}, "then": {"properties": {"pages": {"minItems": 1}}}}
+      ]
+    },
+    "cell": {
+      "type": "object", "additionalProperties": false,
+      "required": ["cell_id", "row", "column", "row_span", "column_span", "is_header", "header_cell_ids", "raw_text", "numeric_value", "currency", "unit", "date_value", "validation_status", "source_refs", "confidence"],
+      "properties": {
+        "cell_id": {"$ref": "#/$defs/id"}, "row": {"type": "integer", "minimum": 0}, "column": {"type": "integer", "minimum": 0},
+        "row_span": {"type": "integer", "minimum": 1}, "column_span": {"type": "integer", "minimum": 1},
+        "is_header": {"type": "boolean"}, "header_cell_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "uniqueItems": true},
+        "raw_text": {"type": "string"}, "numeric_value": {"oneOf": [{"$ref": "#/$defs/decimal"}, {"type": "null"}]},
+        "currency": {"type": ["string", "null"], "pattern": "^[A-Z]{3}$"}, "unit": {"type": ["string", "null"]},
+        "date_value": {"type": ["string", "null"], "format": "date"},
+        "validation_status": {"enum": ["unvalidated", "needs_review", "accepted", "rejected"]},
+        "source_refs": {"$ref": "#/$defs/evidence"}, "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "table": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "extraction_revision", "table_id", "caption", "row_count", "column_count", "cells", "omitted_positions", "footnotes", "related_element_ids", "continuation_of", "source_refs", "warning_codes"],
+      "properties": {
+        "kind": {"const": "table"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"}, "extraction_revision": {"$ref": "#/$defs/id"},
+        "table_id": {"$ref": "#/$defs/id"}, "caption": {"type": ["string", "null"]},
+        "row_count": {"type": "integer", "minimum": 1}, "column_count": {"type": "integer", "minimum": 1},
+        "cells": {"type": "array", "items": {"$ref": "#/$defs/cell"}, "minItems": 1},
+        "omitted_positions": {"type": "array", "items": {
+          "type": "object", "additionalProperties": false, "required": ["row", "column"],
+          "properties": {"row": {"type": "integer", "minimum": 0}, "column": {"type": "integer", "minimum": 0}}
+        }},
+        "footnotes": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "related_element_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "continuation_of": {"$ref": "#/$defs/nullable_id"}, "source_refs": {"$ref": "#/$defs/evidence"}, "warning_codes": {"$ref": "#/$defs/warnings"}
+      }
+    },
+    "money": {
+      "type": "object", "additionalProperties": false, "required": ["amount", "currency"],
+      "properties": {"amount": {"$ref": "#/$defs/decimal"}, "currency": {"type": "string", "pattern": "^[A-Z]{3}$"}}
+    },
+    "typed_value": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["type", "text"], "properties": {"type": {"const": "text"}, "text": {"type": "string", "minLength": 1}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "date"], "properties": {"type": {"const": "date"}, "date": {"type": "string", "format": "date"}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "money"], "properties": {"type": {"const": "money"}, "money": {"$ref": "#/$defs/money"}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "items"], "properties": {
+          "type": {"const": "entities"}, "items": {"type": "array", "minItems": 1, "items": {
+            "type": "object", "additionalProperties": false, "required": ["name", "role", "evidence"],
+            "properties": {"name": {"type": "string", "minLength": 1}, "role": {"type": ["string", "null"]}, "evidence": {"$ref": "#/$defs/evidence"}}
+          }}
+        }},
+        {"type": "object", "additionalProperties": false, "required": ["type", "items"], "properties": {
+          "type": {"const": "obligations"}, "items": {"type": "array", "minItems": 1, "items": {
+            "type": "object", "additionalProperties": false, "required": ["description", "money", "due_date", "evidence"],
+            "properties": {"description": {"type": "string", "minLength": 1}, "money": {"oneOf": [{"$ref": "#/$defs/money"}, {"type": "null"}]}, "due_date": {"type": ["string", "null"], "format": "date"}, "evidence": {"$ref": "#/$defs/evidence"}}
+          }}
+        }},
+        {"type": "object", "additionalProperties": false, "required": ["type", "items"], "properties": {
+          "type": {"const": "clauses"}, "items": {"type": "array", "minItems": 1, "items": {
+            "type": "object", "additionalProperties": false, "required": ["clause_id", "text", "evidence"],
+            "properties": {"clause_id": {"$ref": "#/$defs/id"}, "text": {"type": "string", "minLength": 1}, "evidence": {"$ref": "#/$defs/evidence"}}
+          }}
+        }},
+        {"type": "object", "additionalProperties": false, "required": ["type", "items"], "properties": {
+          "type": {"const": "references"}, "items": {"type": "array", "minItems": 1, "items": {
+            "type": "object", "additionalProperties": false, "required": ["target_id", "relationship", "evidence"],
+            "properties": {"target_id": {"$ref": "#/$defs/id"}, "relationship": {"enum": ["appendix", "table"]}, "evidence": {"$ref": "#/$defs/evidence"}}
+          }}
+        }}
+      ]
+    },
+    "field_candidate": {
+      "type": "object", "additionalProperties": false, "required": ["value", "evidence", "confidence"],
+      "properties": {"value": {"$ref": "#/$defs/typed_value"}, "evidence": {"$ref": "#/$defs/evidence"}, "confidence": {"$ref": "#/$defs/confidence"}}
+    },
+    "field": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "value", "evidence", "confidence", "validation_status", "reason_code", "candidates"],
+      "properties": {
+        "status": {"enum": ["known", "unknown", "ambiguous", "not_applicable"]},
+        "value": {"oneOf": [{"$ref": "#/$defs/typed_value"}, {"type": "null"}]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/source_ref"}}, "confidence": {"$ref": "#/$defs/confidence"},
+        "validation_status": {"enum": ["unvalidated", "needs_review", "accepted", "rejected"]},
+        "reason_code": {"type": ["string", "null"], "pattern": "^[A-Z][A-Z0-9_]{0,95}$"},
+        "candidates": {"type": "array", "items": {"$ref": "#/$defs/field_candidate"}}
+      },
+      "allOf": [
+        {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"$ref": "#/$defs/typed_value"}, "evidence": {"$ref": "#/$defs/evidence"}}}, "else": {"properties": {"value": {"type": "null"}}}},
+        {"if": {"properties": {"status": {"const": "ambiguous"}}}, "then": {"properties": {"candidates": {"minItems": 2}, "validation_status": {"const": "needs_review"}}}},
+        {"if": {"properties": {"status": {"const": "not_applicable"}}}, "then": {"properties": {"reason_code": {"type": "string", "minLength": 1}}}}
+      ]
+    },
+    "text_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "text"}}}}}}]},
+    "date_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "date"}}}}}}]},
+    "money_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "money"}}}}}}]},
+    "entities_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "entities"}}}}}}]},
+    "obligations_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "obligations"}}}}}}]},
+    "clauses_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "clauses"}}}}}}]},
+    "references_field": {"allOf": [{"$ref": "#/$defs/field"}, {"if": {"properties": {"status": {"const": "known"}}}, "then": {"properties": {"value": {"properties": {"type": {"const": "references"}}}}}}]},
+    "contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "extraction_revision", "enrichment_revision", "stage_status", "fields", "signature_block_detected", "legal_signature_status", "warning_codes"],
+      "properties": {
+        "kind": {"const": "contract"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"}, "extraction_revision": {"$ref": "#/$defs/id"},
+        "enrichment_revision": {"$ref": "#/$defs/id"}, "stage_status": {"enum": ["pending", "completed", "needs_review", "failed"]},
+        "fields": {
+          "type": "object", "additionalProperties": false,
+          "required": ["title", "number", "parties", "effective_date", "expiration_date", "payment_obligations", "contract_value", "renewal_terms", "termination_provisions", "signatories", "important_clauses", "appendices_and_tables"],
+          "properties": {
+            "title": {"$ref": "#/$defs/text_field"}, "number": {"$ref": "#/$defs/text_field"}, "parties": {"$ref": "#/$defs/entities_field"},
+            "effective_date": {"$ref": "#/$defs/date_field"}, "expiration_date": {"$ref": "#/$defs/date_field"},
+            "payment_obligations": {"$ref": "#/$defs/obligations_field"}, "contract_value": {"$ref": "#/$defs/money_field"},
+            "renewal_terms": {"$ref": "#/$defs/clauses_field"}, "termination_provisions": {"$ref": "#/$defs/clauses_field"},
+            "signatories": {"$ref": "#/$defs/entities_field"}, "important_clauses": {"$ref": "#/$defs/clauses_field"},
+            "appendices_and_tables": {"$ref": "#/$defs/references_field"}
+          }
+        },
+        "signature_block_detected": {"type": ["boolean", "null"]}, "legal_signature_status": {"const": "not_assessed"},
+        "warning_codes": {"$ref": "#/$defs/warnings"}
+      },
+      "description": "Optional enrichment; no record is required for a non-contract document. Field-specific value type and exact source agreement are semantic checks."
+    },
+    "pii_annotation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "extraction_revision", "annotation_id", "entity_type", "detector_id", "detector_revision", "confidence", "source_refs", "action", "policy_id", "pseudonym_token_ref"],
+      "properties": {
+        "kind": {"const": "pii_annotation"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"}, "extraction_revision": {"$ref": "#/$defs/id"},
+        "annotation_id": {"$ref": "#/$defs/id"},
+        "entity_type": {"enum": ["PERSON", "ADDRESS", "EMAIL", "PHONE", "NATIONAL_ID", "FINANCIAL_ACCOUNT", "EMPLOYEE_ID", "PATIENT_ID", "HEALTH_INFORMATION", "CONTRACT_SECRET", "COMPANY_IDENTIFIER", "CUSTOM"]},
+        "detector_id": {"$ref": "#/$defs/id"}, "detector_revision": {"$ref": "#/$defs/id"}, "confidence": {"$ref": "#/$defs/confidence"},
+        "source_refs": {"$ref": "#/$defs/evidence"}, "action": {"enum": ["retain_for_authorized_readers", "restrict", "mask", "pseudonymize", "redact"]},
+        "policy_id": {"$ref": "#/$defs/id"}, "pseudonym_token_ref": {"$ref": "#/$defs/nullable_id"}
+      },
+      "allOf": [{"if": {"properties": {"action": {"const": "pseudonymize"}}}, "then": {"properties": {"pseudonym_token_ref": {"$ref": "#/$defs/id"}}}}]
+    },
+    "chunk": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "document_id", "version_id", "extraction_revision", "chunk_id", "generation_id", "rendition_id", "parent_element_id", "chunk_type", "text", "contextualized_text", "token_count", "tokenizer_revision", "section_path", "source_refs", "table_projection", "authorization", "embedding", "warning_codes"],
+      "properties": {
+        "kind": {"const": "chunk"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"}, "extraction_revision": {"$ref": "#/$defs/id"},
+        "chunk_id": {"$ref": "#/$defs/id"}, "generation_id": {"$ref": "#/$defs/id"}, "rendition_id": {"$ref": "#/$defs/id"},
+        "parent_element_id": {"$ref": "#/$defs/id"}, "chunk_type": {"enum": ["prose", "clause", "table_schema", "table_rows", "table_full"]},
+        "text": {"type": "string", "minLength": 1}, "contextualized_text": {"type": "string", "minLength": 1},
+        "token_count": {"type": ["integer", "null"], "minimum": 1, "maximum": 480}, "tokenizer_revision": {"$ref": "#/$defs/nullable_id"},
+        "section_path": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "source_refs": {"$ref": "#/$defs/evidence"},
+        "table_projection": {"oneOf": [{"type": "null"}, {
+          "type": "object", "additionalProperties": false, "required": ["table_id", "row_indices", "cell_ids", "header_cell_ids"],
+          "properties": {"table_id": {"$ref": "#/$defs/id"}, "row_indices": {"type": "array", "items": {"type": "integer", "minimum": 0}}, "cell_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "header_cell_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}}
+        }]},
+        "authorization": {
+          "type": "object", "additionalProperties": false, "required": ["inherit_document", "restriction_scope_ids", "effective_handling", "permission_epoch_at_build"],
+          "properties": {"inherit_document": {"const": true}, "restriction_scope_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "effective_handling": {"$ref": "#/$defs/handling"}, "permission_epoch_at_build": {"type": "integer", "minimum": 1}}
+        },
+        "embedding": {
+          "type": "object", "additionalProperties": false, "required": ["model_id", "model_revision", "dimension", "normalized", "input_sha256", "status", "vector_ref"],
+          "properties": {"model_id": {"type": "string", "minLength": 1}, "model_revision": {"type": ["string", "null"], "minLength": 1}, "dimension": {"type": "integer", "minimum": 1}, "normalized": {"const": true}, "input_sha256": {"oneOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]}, "status": {"enum": ["pending", "computed", "failed"]}, "vector_ref": {"$ref": "#/$defs/nullable_id"}},
+          "allOf": [{"if": {"properties": {"status": {"const": "computed"}}}, "then": {"properties": {"vector_ref": {"$ref": "#/$defs/id"}, "model_revision": {"type": "string", "minLength": 1}, "input_sha256": {"$ref": "#/$defs/sha256"}}}}]
+        },
+        "warning_codes": {"$ref": "#/$defs/warnings"}
+      },
+      "allOf": [{"if": {"properties": {"embedding": {"properties": {"status": {"const": "computed"}}}}}, "then": {"properties": {"token_count": {"type": "integer", "minimum": 1, "maximum": 480}, "tokenizer_revision": {"$ref": "#/$defs/id"}}}}]
+    },
+    "job": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "job_id", "document_id", "version_id", "stage", "status", "attempt", "max_attempts", "available_at", "lease_owner", "lease_token", "lease_expires_at", "heartbeat_at", "idempotency_key", "config_sha256", "checkpoint_refs", "pages_completed", "pages_total", "error", "created_at", "updated_at"],
+      "properties": {
+        "kind": {"const": "job"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"}, "job_id": {"$ref": "#/$defs/id"},
+        "document_id": {"$ref": "#/$defs/id"}, "version_id": {"$ref": "#/$defs/id"},
+        "stage": {"enum": ["validate_version", "extract_version", "classify_and_annotate", "review_resume", "extract_contract", "build_generation", "publish_generation", "purge_document"]},
+        "status": {"enum": ["queued", "running", "retry_wait", "needs_review", "completed", "failed", "cancelled"]},
+        "attempt": {"type": "integer", "minimum": 0}, "max_attempts": {"type": "integer", "minimum": 1},
+        "available_at": {"$ref": "#/$defs/timestamp"}, "lease_owner": {"$ref": "#/$defs/nullable_id"}, "lease_token": {"$ref": "#/$defs/nullable_id"},
+        "lease_expires_at": {"$ref": "#/$defs/nullable_timestamp"}, "heartbeat_at": {"$ref": "#/$defs/nullable_timestamp"},
+        "idempotency_key": {"$ref": "#/$defs/id"}, "config_sha256": {"$ref": "#/$defs/sha256"},
+        "checkpoint_refs": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "pages_completed": {"type": "integer", "minimum": 0}, "pages_total": {"type": ["integer", "null"], "minimum": 1},
+        "error": {"oneOf": [{"type": "null"}, {
+          "type": "object", "additionalProperties": false, "required": ["code", "category", "retryable"],
+          "properties": {"code": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{0,95}$"}, "category": {"enum": ["transient", "permanent", "quality", "policy"]}, "retryable": {"type": "boolean"}}
+        }]},
+        "created_at": {"$ref": "#/$defs/timestamp"}, "updated_at": {"$ref": "#/$defs/timestamp"}
+      },
+      "allOf": [{"if": {"properties": {"status": {"const": "running"}}}, "then": {"properties": {"lease_owner": {"$ref": "#/$defs/id"}, "lease_token": {"$ref": "#/$defs/id"}, "lease_expires_at": {"$ref": "#/$defs/timestamp"}, "heartbeat_at": {"$ref": "#/$defs/timestamp"}, "attempt": {"minimum": 1}}}}]
+    },
+    "audit_event": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "schema_version", "tenant_id", "event_id", "occurred_at", "actor_id", "actor_kind", "action", "document_id", "version_id", "request_id", "outcome", "reason_code", "policy_id", "permission_epoch", "old_revision", "new_revision"],
+      "properties": {
+        "kind": {"const": "audit_event"}, "schema_version": {"const": "1.0.0"}, "tenant_id": {"$ref": "#/$defs/id"}, "event_id": {"$ref": "#/$defs/id"},
+        "occurred_at": {"$ref": "#/$defs/timestamp"}, "actor_id": {"$ref": "#/$defs/id"}, "actor_kind": {"enum": ["human", "service"]},
+        "action": {"enum": ["upload_registered", "job_leased", "label_override_requested", "label_override_approved", "quality_decision", "search_performed", "original_accessed", "grant_added", "grant_revoked", "generation_published", "deletion_requested", "purge_completed", "reidentification_requested"]},
+        "document_id": {"$ref": "#/$defs/nullable_id"}, "version_id": {"$ref": "#/$defs/nullable_id"}, "request_id": {"$ref": "#/$defs/id"},
+        "outcome": {"enum": ["allowed", "denied", "pending", "completed", "failed"]},
+        "reason_code": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{0,95}$"}, "policy_id": {"$ref": "#/$defs/id"},
+        "permission_epoch": {"type": "integer", "minimum": 1}, "old_revision": {"$ref": "#/$defs/nullable_id"}, "new_revision": {"$ref": "#/$defs/nullable_id"}
+      },
+      "description": "Content-free event metadata. No text, names, query strings, filenames, tokens, embeddings or external URLs. Protect even identifiers under audit access policy."
+    }
+  }
+}

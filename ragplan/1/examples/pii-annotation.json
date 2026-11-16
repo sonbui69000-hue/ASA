@@ -1,0 +1,58 @@
+{
+  "kind": "pii_annotation",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "extraction_revision": "extraction-001",
+  "annotation_id": "annotation-person-example",
+  "entity_type": "PERSON",
+  "detector_id": "synthetic-gold-annotation",
+  "detector_revision": "annotation-example-001",
+  "confidence": {
+    "raw_score": null,
+    "raw_scale": "not_available",
+    "grade": null,
+    "calibrated_probability": null,
+    "calibration_id": null
+  },
+  "source_refs": [
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "contact-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        130,
+        545,
+        150
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": {
+        "start": 15,
+        "end": 29
+      },
+      "table_id": null,
+      "cell_ids": []
+    }
+  ],
+  "action": "retain_for_authorized_readers",
+  "policy_id": "local-only-001",
+  "pseudonym_token_ref": null
+}

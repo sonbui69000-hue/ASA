@@ -1,0 +1,351 @@
+{
+  "kind": "table",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "extraction_revision": "extraction-001",
+  "table_id": "table-001",
+  "caption": "Bảng 1 — Thanh toán (VND)",
+  "row_count": 3,
+  "column_count": 2,
+  "cells": [
+    {
+      "cell_id": "cell-0-0",
+      "row": 0,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 2,
+      "is_header": true,
+      "header_cell_ids": [],
+      "raw_text": "Bảng 1 — Thanh toán (VND)",
+      "numeric_value": null,
+      "currency": null,
+      "unit": null,
+      "date_value": null,
+      "validation_status": "accepted",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            220,
+            545,
+            260
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": [
+            "cell-0-0"
+          ]
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      }
+    },
+    {
+      "cell_id": "cell-1-0",
+      "row": 1,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "is_header": true,
+      "header_cell_ids": [
+        "cell-0-0"
+      ],
+      "raw_text": "Đợt",
+      "numeric_value": null,
+      "currency": null,
+      "unit": null,
+      "date_value": null,
+      "validation_status": "accepted",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            260,
+            250,
+            300
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": [
+            "cell-1-0"
+          ]
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      }
+    },
+    {
+      "cell_id": "cell-1-1",
+      "row": 1,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "is_header": true,
+      "header_cell_ids": [
+        "cell-0-0"
+      ],
+      "raw_text": "Giá trị thanh toán",
+      "numeric_value": null,
+      "currency": null,
+      "unit": null,
+      "date_value": null,
+      "validation_status": "accepted",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            250,
+            260,
+            545,
+            300
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": [
+            "cell-1-1"
+          ]
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      }
+    },
+    {
+      "cell_id": "cell-2-0",
+      "row": 2,
+      "column": 0,
+      "row_span": 1,
+      "column_span": 1,
+      "is_header": false,
+      "header_cell_ids": [
+        "cell-0-0",
+        "cell-1-0"
+      ],
+      "raw_text": "Đợt 1",
+      "numeric_value": null,
+      "currency": null,
+      "unit": null,
+      "date_value": null,
+      "validation_status": "accepted",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            300,
+            250,
+            340
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": [
+            "cell-2-0"
+          ]
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      }
+    },
+    {
+      "cell_id": "cell-2-1",
+      "row": 2,
+      "column": 1,
+      "row_span": 1,
+      "column_span": 1,
+      "is_header": false,
+      "header_cell_ids": [
+        "cell-0-0",
+        "cell-1-1"
+      ],
+      "raw_text": "125.000.000 VND",
+      "numeric_value": "125000000",
+      "currency": "VND",
+      "unit": "VND",
+      "date_value": null,
+      "validation_status": "accepted",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            250,
+            300,
+            545,
+            340
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": [
+            "cell-2-1"
+          ]
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      }
+    }
+  ],
+  "omitted_positions": [],
+  "footnotes": [],
+  "related_element_ids": [
+    "clause-payment"
+  ],
+  "continuation_of": null,
+  "source_refs": [
+    {
+      "document_id": "doc-synthetic-001",
+      "version_id": "ver-synthetic-001",
+      "extraction_revision": "extraction-001",
+      "element_id": "table-001",
+      "medium": "pdf",
+      "page_number": 1,
+      "bbox": [
+        50,
+        220,
+        545,
+        340
+      ],
+      "page_size": [
+        595,
+        842
+      ],
+      "coordinate_system": "upright_cropbox_top_left_points",
+      "transform_to_original": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "docx_locator": null,
+      "span": null,
+      "table_id": "table-001",
+      "cell_ids": []
+    }
+  ],
+  "warning_codes": [
+    "SYNTHETIC_EXAMPLE_NOT_PARSER_OUTPUT"
+  ]
+}

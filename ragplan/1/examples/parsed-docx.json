@@ -1,0 +1,71 @@
+{
+  "kind": "parsed_document",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-docx",
+  "version_id": "ver-synthetic-docx",
+  "extraction_revision": "extraction-docx-001",
+  "format": "docx",
+  "producer": {
+    "adapter_id": "synthetic-ooxml-example",
+    "package_revision": "not-executed",
+    "model_revision": null,
+    "config_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "normalization": {
+    "unicode_form": "NFC",
+    "offset_unit": "unicode_code_point",
+    "offset_map_artifact_id": "offset-map-docx-example"
+  },
+  "pages": [],
+  "elements": [
+    {
+      "element_id": "paragraph-docx-001",
+      "element_type": "heading",
+      "parent_id": null,
+      "reading_order": 0,
+      "text": "Hợp đồng mẫu",
+      "heading_level": 1,
+      "section_path": [],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-docx",
+          "version_id": "ver-synthetic-docx",
+          "extraction_revision": "extraction-docx-001",
+          "element_id": "paragraph-docx-001",
+          "medium": "docx",
+          "page_number": null,
+          "bbox": null,
+          "page_size": null,
+          "coordinate_system": null,
+          "transform_to_original": null,
+          "docx_locator": {
+            "part": "word/document.xml",
+            "xpath": "/w:document/w:body/w:p[1]",
+            "paragraph_id": "EXAMPLE01"
+          },
+          "span": {
+            "start": 0,
+            "end": 12
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    }
+  ],
+  "relations": [],
+  "warning_codes": [
+    "DOCX_HAS_NO_AUTHORITATIVE_PAGE_NUMBERS",
+    "SYNTHETIC_EXAMPLE_NOT_PARSER_OUTPUT"
+  ]
+}

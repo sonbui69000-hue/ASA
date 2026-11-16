@@ -1,0 +1,444 @@
+{
+  "kind": "parsed_document",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "extraction_revision": "extraction-001",
+  "format": "pdf",
+  "producer": {
+    "adapter_id": "synthetic-gold-example",
+    "package_revision": "not-executed",
+    "model_revision": null,
+    "config_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "normalization": {
+    "unicode_form": "NFC",
+    "offset_unit": "unicode_code_point",
+    "offset_map_artifact_id": "offset-map-example-001"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "width_points": 595,
+      "height_points": 842,
+      "route": "native",
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    }
+  ],
+  "elements": [
+    {
+      "element_id": "title-001",
+      "element_type": "heading",
+      "parent_id": null,
+      "reading_order": 0,
+      "text": "HỢP ĐỒNG MẪU",
+      "heading_level": 1,
+      "section_path": [],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "title-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            50,
+            545,
+            80
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 12
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "parties-001",
+      "element_type": "paragraph",
+      "parent_id": "title-001",
+      "reading_order": 1,
+      "text": "Bên A: Công ty Mẫu A. Bên B: Công ty Mẫu B.",
+      "heading_level": null,
+      "section_path": [
+        "title-001"
+      ],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "parties-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            90,
+            545,
+            120
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 43
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "contact-001",
+      "element_type": "paragraph",
+      "parent_id": "title-001",
+      "reading_order": 2,
+      "text": "Người liên hệ: Nguyễn Văn Mẫu.",
+      "heading_level": null,
+      "section_path": [
+        "title-001"
+      ],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "contact-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            130,
+            545,
+            150
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 30
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "heading-payment",
+      "element_type": "heading",
+      "parent_id": "title-001",
+      "reading_order": 3,
+      "text": "Điều 2. Thanh toán",
+      "heading_level": 2,
+      "section_path": [
+        "title-001"
+      ],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "heading-payment",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            165,
+            545,
+            190
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 18
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "clause-payment",
+      "element_type": "paragraph",
+      "parent_id": "heading-payment",
+      "reading_order": 4,
+      "text": "Thanh toán theo Bảng 1.",
+      "heading_level": null,
+      "section_path": [
+        "title-001",
+        "heading-payment"
+      ],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "clause-payment",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            195,
+            545,
+            215
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 23
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "table-001",
+      "element_type": "table",
+      "parent_id": "heading-payment",
+      "reading_order": 5,
+      "text": null,
+      "heading_level": null,
+      "section_path": [
+        "title-001",
+        "heading-payment"
+      ],
+      "table_id": "table-001",
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "table-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            220,
+            545,
+            340
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": null,
+          "table_id": "table-001",
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": []
+    },
+    {
+      "element_id": "signature-001",
+      "element_type": "signature_block",
+      "parent_id": "title-001",
+      "reading_order": 6,
+      "text": "ĐẠI DIỆN BÊN A — Giám đốc (chưa ghi tên).",
+      "heading_level": null,
+      "section_path": [
+        "title-001"
+      ],
+      "table_id": null,
+      "source_refs": [
+        {
+          "document_id": "doc-synthetic-001",
+          "version_id": "ver-synthetic-001",
+          "extraction_revision": "extraction-001",
+          "element_id": "signature-001",
+          "medium": "pdf",
+          "page_number": 1,
+          "bbox": [
+            50,
+            380,
+            545,
+            430
+          ],
+          "page_size": [
+            595,
+            842
+          ],
+          "coordinate_system": "upright_cropbox_top_left_points",
+          "transform_to_original": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "docx_locator": null,
+          "span": {
+            "start": 0,
+            "end": 41
+          },
+          "table_id": null,
+          "cell_ids": []
+        }
+      ],
+      "confidence": {
+        "raw_score": null,
+        "raw_scale": "not_available",
+        "grade": null,
+        "calibrated_probability": null,
+        "calibration_id": null
+      },
+      "warning_codes": [
+        "SIGNATURE_VALIDITY_NOT_ASSESSED"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from_id": "clause-payment",
+      "to_id": "table-001",
+      "relation_type": "clause_applies_to_table"
+    },
+    {
+      "from_id": "heading-payment",
+      "to_id": "table-001",
+      "relation_type": "contains"
+    }
+  ],
+  "warning_codes": [
+    "SYNTHETIC_EXAMPLE_NOT_PARSER_OUTPUT"
+  ]
+}

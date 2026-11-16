@@ -1,0 +1,29 @@
+{
+  "kind": "document",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "version_number": 1,
+  "created_at": "2026-11-15T09:00:00Z",
+  "created_by": "user-synthetic-uploader",
+  "department_id": "department-synthetic",
+  "display_filename": "hop-dong-mau-synthetic.pdf",
+  "title": "HỢP ĐỒNG MẪU",
+  "detected_format": "pdf",
+  "pdf_nature": "digital",
+  "page_count": 1,
+  "original": {
+    "artifact_id": "artifact-original-example",
+    "storage_key": "originals/tenant-synthetic/doc-synthetic-001/ver-synthetic-001/source",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bytes": 12345
+  },
+  "processing_state": "needs_review",
+  "effective_sensitivity": "restricted",
+  "permission_epoch": 1,
+  "active_generation_id": null,
+  "retention_policy_id": "retention-enterprise-example",
+  "legal_hold": false,
+  "deleted_at": null
+}

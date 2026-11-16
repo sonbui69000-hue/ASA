@@ -1,0 +1,31 @@
+{
+  "kind": "job",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "job_id": "job-synthetic-001",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "stage": "classify_and_annotate",
+  "status": "needs_review",
+  "attempt": 1,
+  "max_attempts": 4,
+  "available_at": "2026-11-15T09:00:01Z",
+  "lease_owner": null,
+  "lease_token": null,
+  "lease_expires_at": null,
+  "heartbeat_at": null,
+  "idempotency_key": "tenant-synthetic-version-001-profile-001",
+  "config_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "checkpoint_refs": [
+    "artifact-canonical-example"
+  ],
+  "pages_completed": 1,
+  "pages_total": 1,
+  "error": {
+    "code": "SENSITIVITY_REVIEW_REQUIRED",
+    "category": "policy",
+    "retryable": false
+  },
+  "created_at": "2026-11-15T09:00:01Z",
+  "updated_at": "2026-11-15T09:00:30Z"
+}

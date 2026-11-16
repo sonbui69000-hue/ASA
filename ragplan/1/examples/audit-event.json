@@ -1,0 +1,19 @@
+{
+  "kind": "audit_event",
+  "schema_version": "1.0.0",
+  "tenant_id": "tenant-synthetic",
+  "event_id": "audit-synthetic-001",
+  "occurred_at": "2026-11-15T09:00:30Z",
+  "actor_id": "user-synthetic-custodian",
+  "actor_kind": "human",
+  "action": "label_override_requested",
+  "document_id": "doc-synthetic-001",
+  "version_id": "ver-synthetic-001",
+  "request_id": "req-synthetic-001",
+  "outcome": "pending",
+  "reason_code": "TRUSTED_LABEL_REVIEW_REQUESTED",
+  "policy_id": "local-only-001",
+  "permission_epoch": 1,
+  "old_revision": "decision-001",
+  "new_revision": "decision-pending-002"
+}
