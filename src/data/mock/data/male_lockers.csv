@@ -1,0 +1,482 @@
+﻿Họ và tên,Chức danh,Khoa Phòng,Số điện thoại,Mã nhân viên,Số tủ,Ngày cấp tủ,Ngày thu tủ,Ghi chú,Dãy tủ,Trạng thái,Mã dòng
+Nhân viên mô phỏng 001,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-001,01,2026-10-03,,,01,Đang sử dụng,TU-MOCK-01-01
+Nhân viên mô phỏng 001,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-001,02,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-02
+,,,,,03,,,,01,Trống,TU-MOCK-01-03
+,,,,,04,,,,01,Trống,TU-MOCK-01-04
+Nhân viên mô phỏng 006,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-006,05,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-05
+"Nhân viên mô phỏng 002
+Nhân viên mô phỏng 005",,,,,06,,,Hai người xuất hiện trong cùng một ô của biểu mẫu mô phỏng.,01,Cần xác minh,TU-MOCK-01-06
+,,,,,07,,,,01,Trống,TU-MOCK-01-07
+,,,,,08,,,,01,Trống,TU-MOCK-01-08
+Nhân viên mô phỏng 007,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-007,09,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-09
+,,,,,10,,,,01,Trống,TU-MOCK-01-10
+,,,,,11,,,,01,Trống,TU-MOCK-01-11
+,,,,,12,,,,01,Trống,TU-MOCK-01-12
+Nhân viên mô phỏng 010,Điều dưỡng,Ngoại khoa,,NV-MOCK-010,13,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-13
+,,,,,14,,,,01,Trống,TU-MOCK-01-14
+,,,,,15,,,,01,Trống,TU-MOCK-01-15
+,,,,,16,,,,01,Trống,TU-MOCK-01-16
+Nhân viên mô phỏng 011,Nhân viên hậu cần,Hậu cần,,NV-MOCK-011,17,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-17
+,,,,,18,,,,01,Trống,TU-MOCK-01-18
+,,,,,19,,,,01,Trống,TU-MOCK-01-19
+,,,,,20,,,,01,Trống,TU-MOCK-01-20
+Nhân viên mô phỏng 012,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-012,21,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-21
+,,,,,22,,,,01,Trống,TU-MOCK-01-22
+,,,,,23,,,,01,Trống,TU-MOCK-01-23
+,,,,,24,,,,01,Trống,TU-MOCK-01-24
+Nhân viên mô phỏng 015,Điều dưỡng,Nội khoa,,NV-MOCK-015,25,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-25
+Nhân viên mô phỏng 016,Điều dưỡng,Ngoại khoa,,NV-MOCK-016,26,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-26
+,,,,,27,,,,01,Trống,TU-MOCK-01-27
+,,,,,28,,,,01,Trống,TU-MOCK-01-28
+Nhân viên mô phỏng 017,Nhân viên hậu cần,Hậu cần,,NV-MOCK-017,29,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-29
+,,,,,30,,,,01,Trống,TU-MOCK-01-30
+,,,,,31,,,,01,Trống,TU-MOCK-01-31
+,,,,,32,,,,01,Trống,TU-MOCK-01-32
+Nhân viên mô phỏng 020,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-020,33,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-33
+,,,,,34,,,,01,Trống,TU-MOCK-01-34
+,,,,,35,,,,01,Trống,TU-MOCK-01-35
+,,,,,36,,,,01,Trống,TU-MOCK-01-36
+Nhân viên mô phỏng 021,Điều dưỡng,Nội khoa,,NV-MOCK-021,37,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-37
+,,,,,38,,,,01,Trống,TU-MOCK-01-38
+Nhân viên mô phỏng 022,Điều dưỡng,Ngoại khoa,,NV-MOCK-022,39,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-39
+,,,,,40,,,,01,Trống,TU-MOCK-01-40
+Nhân viên mô phỏng 025,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-025,41,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-41
+,,,,,42,,,,01,Trống,TU-MOCK-01-42
+,,,,,43,,,,01,Trống,TU-MOCK-01-43
+,,,,,44,,,,01,Trống,TU-MOCK-01-44
+Nhân viên mô phỏng 026,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-026,45,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-45
+,,,,,46,,,,01,Trống,TU-MOCK-01-46
+,,,,,47,,,,01,Trống,TU-MOCK-01-47
+,,,,,48,,,,01,Trống,TU-MOCK-01-48
+Nhân viên mô phỏng 027,Điều dưỡng,Nội khoa,,NV-MOCK-027,49,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-49
+,,,,,50,,,,01,Trống,TU-MOCK-01-50
+,,,,,51,,,,01,Trống,TU-MOCK-01-51
+Nhân viên mô phỏng 030,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-030,52,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-52
+Nhân viên mô phỏng 031,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-031,53,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-53
+,,,,,54,,,,01,Trống,TU-MOCK-01-54
+,,,,,55,,,,01,Trống,TU-MOCK-01-55
+,,,,,56,,,,01,Trống,TU-MOCK-01-56
+Nhân viên mô phỏng 032,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-032,57,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-57
+,,,,,58,,,,01,Trống,TU-MOCK-01-58
+,,,,,59,,,,01,Trống,TU-MOCK-01-59
+,,,,,60,,,,01,Trống,TU-MOCK-01-60
+Nhân viên mô phỏng 035,Nhân viên hậu cần,Hậu cần,,NV-MOCK-035,61,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-61
+,,,,,62,,,,01,Trống,TU-MOCK-01-62
+,,,,,63,,,,01,Trống,TU-MOCK-01-63
+,,,,,64,,,,01,Trống,TU-MOCK-01-64
+Nhân viên mô phỏng 036,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-036,65,2026-08-04,,,01,Đang sử dụng,TU-MOCK-01-65
+,,,,,66,,,,01,Trống,TU-MOCK-01-66
+,,,,,67,,,,01,Trống,TU-MOCK-01-67
+,,,,,68,,,,01,Trống,TU-MOCK-01-68
+Nhân viên mô phỏng 037,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-037,69,2026-08-04,2026-10-02,,01,Đã thu hồi,TU-MOCK-01-69
+,,,,,70,,,,01,Trống,TU-MOCK-01-70
+Nhân viên mô phỏng 040,Điều dưỡng,Ngoại khoa,,NV-MOCK-040,01,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-01
+,,,,,02,,,,02,Trống,TU-MOCK-02-02
+,,,,,03,,,,02,Trống,TU-MOCK-02-03
+,,,,,04,,,,02,Trống,TU-MOCK-02-04
+Nhân viên mô phỏng 041,Nhân viên hậu cần,Hậu cần,,NV-MOCK-041,05,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-05
+,,,,,06,,,,02,Trống,TU-MOCK-02-06
+,,,,,07,,,,02,Trống,TU-MOCK-02-07
+,,,,,08,,,,02,Trống,TU-MOCK-02-08
+Nhân viên mô phỏng 042,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-042,09,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-09
+,,,,,10,,,,02,Trống,TU-MOCK-02-10
+,,,,,11,,,,02,Trống,TU-MOCK-02-11
+,,,,,12,,,,02,Trống,TU-MOCK-02-12
+Nhân viên mô phỏng 045,Điều dưỡng,Nội khoa,,NV-MOCK-045,13,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-13
+,,,,,14,,,,02,Trống,TU-MOCK-02-14
+,,,,,15,,,,02,Trống,TU-MOCK-02-15
+,,,,,16,,,,02,Trống,TU-MOCK-02-16
+Nhân viên mô phỏng 046,Điều dưỡng,Ngoại khoa,,NV-MOCK-046,17,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-17
+,,,,,18,,,,02,Trống,TU-MOCK-02-18
+,,,,,19,,,,02,Trống,TU-MOCK-02-19
+,,,,,20,,,,02,Trống,TU-MOCK-02-20
+Nhân viên mô phỏng 047,Nhân viên hậu cần,Hậu cần,,NV-MOCK-047,21,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-21
+,,,,,22,,,,02,Trống,TU-MOCK-02-22
+,,,,,23,,,,02,Trống,TU-MOCK-02-23
+,,,,,24,,,,02,Trống,TU-MOCK-02-24
+Nhân viên mô phỏng 050,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-050,25,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-25
+Nhân viên mô phỏng 051,Điều dưỡng,Nội khoa,,NV-MOCK-051,26,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-26
+,,,,,27,,,,02,Trống,TU-MOCK-02-27
+,,,,,28,,,,02,Trống,TU-MOCK-02-28
+Nhân viên mô phỏng 052,Điều dưỡng,Ngoại khoa,,NV-MOCK-052,29,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-29
+,,,,,30,,,,02,Trống,TU-MOCK-02-30
+,,,,,31,,,,02,Trống,TU-MOCK-02-31
+,,,,,32,,,,02,Trống,TU-MOCK-02-32
+Nhân viên mô phỏng 055,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-055,33,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-33
+,,,,,34,,,,02,Trống,TU-MOCK-02-34
+,,,,,35,,,,02,Trống,TU-MOCK-02-35
+,,,,,36,,,,02,Trống,TU-MOCK-02-36
+Nhân viên mô phỏng 056,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-056,37,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-37
+,,,,,38,,,,02,Trống,TU-MOCK-02-38
+Nhân viên mô phỏng 057,Điều dưỡng,Nội khoa,,NV-MOCK-057,39,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-39
+,,,,,40,,,,02,Trống,TU-MOCK-02-40
+Nhân viên mô phỏng 060,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-060,41,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-41
+,,,,,42,,,,02,Trống,TU-MOCK-02-42
+,,,,,43,,,,02,Trống,TU-MOCK-02-43
+,,,,,44,,,,02,Trống,TU-MOCK-02-44
+Nhân viên mô phỏng 061,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-061,45,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-45
+,,,,,46,,,,02,Trống,TU-MOCK-02-46
+,,,,,47,,,,02,Trống,TU-MOCK-02-47
+,,,,,48,,,,02,Trống,TU-MOCK-02-48
+Nhân viên mô phỏng 062,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-062,49,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-49
+,,,,,50,,,,02,Trống,TU-MOCK-02-50
+,,,,,51,,,,02,Trống,TU-MOCK-02-51
+Nhân viên mô phỏng 065,Nhân viên hậu cần,Hậu cần,,NV-MOCK-065,52,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-52
+Nhân viên mô phỏng 066,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-066,53,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-53
+,,,,,54,,,,02,Trống,TU-MOCK-02-54
+,,,,,55,,,,02,Trống,TU-MOCK-02-55
+,,,,,56,,,,02,Trống,TU-MOCK-02-56
+Nhân viên mô phỏng 067,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-067,57,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-57
+,,,,,58,,,,02,Trống,TU-MOCK-02-58
+,,,,,59,,,,02,Trống,TU-MOCK-02-59
+,,,,,60,,,,02,Trống,TU-MOCK-02-60
+Nhân viên mô phỏng 070,Điều dưỡng,Ngoại khoa,,NV-MOCK-070,61,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-61
+,,,,,62,,,,02,Trống,TU-MOCK-02-62
+,,,,,63,,,,02,Trống,TU-MOCK-02-63
+,,,,,64,,,,02,Trống,TU-MOCK-02-64
+Nhân viên mô phỏng 071,Nhân viên hậu cần,Hậu cần,,NV-MOCK-071,65,2026-08-04,,,02,Đang sử dụng,TU-MOCK-02-65
+,,,,,66,,,,02,Trống,TU-MOCK-02-66
+,,,,,67,,,,02,Trống,TU-MOCK-02-67
+,,,,,68,,,,02,Trống,TU-MOCK-02-68
+Nhân viên mô phỏng 072,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-072,69,2026-08-04,2026-10-02,,02,Đã thu hồi,TU-MOCK-02-69
+,,,,,70,,,,02,Trống,TU-MOCK-02-70
+Nhân viên mô phỏng 075,Điều dưỡng,Nội khoa,,NV-MOCK-075,01,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-01
+,,,,,02,,,,03,Trống,TU-MOCK-03-02
+,,,,,03,,,,03,Trống,TU-MOCK-03-03
+,,,,,04,,,,03,Trống,TU-MOCK-03-04
+Nhân viên mô phỏng 076,Điều dưỡng,Ngoại khoa,,NV-MOCK-076,05,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-05
+,,,,,06,,,,03,Trống,TU-MOCK-03-06
+,,,,,07,,,,03,Trống,TU-MOCK-03-07
+,,,,,08,,,,03,Trống,TU-MOCK-03-08
+Nhân viên mô phỏng 077,Nhân viên hậu cần,Hậu cần,,NV-MOCK-077,09,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-09
+,,,,,10,,,,03,Trống,TU-MOCK-03-10
+,,,,,11,,,,03,Trống,TU-MOCK-03-11
+,,,,,12,,,,03,Trống,TU-MOCK-03-12
+Nhân viên mô phỏng 080,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-080,13,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-13
+,,,,,14,,,,03,Trống,TU-MOCK-03-14
+,,,,,15,,,,03,Trống,TU-MOCK-03-15
+,,,,,16,,,,03,Trống,TU-MOCK-03-16
+Nhân viên mô phỏng 081,Điều dưỡng,Nội khoa,,NV-MOCK-081,17,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-17
+,,,,,18,,,,03,Trống,TU-MOCK-03-18
+,,,,,19,,,,03,Trống,TU-MOCK-03-19
+,,,,,20,,,,03,Trống,TU-MOCK-03-20
+Nhân viên mô phỏng 082,Điều dưỡng,Ngoại khoa,,NV-MOCK-082,21,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-21
+,,,,,22,,,,03,Trống,TU-MOCK-03-22
+,,,,,23,,,,03,Trống,TU-MOCK-03-23
+,,,,,24,,,,03,Trống,TU-MOCK-03-24
+Nhân viên mô phỏng 085,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-085,25,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-25
+Nhân viên mô phỏng 086,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-086,26,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-26
+,,,,,27,,,,03,Trống,TU-MOCK-03-27
+,,,,,28,,,,03,Trống,TU-MOCK-03-28
+Nhân viên mô phỏng 087,Điều dưỡng,Nội khoa,,NV-MOCK-087,29,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-29
+,,,,,30,,,,03,Trống,TU-MOCK-03-30
+,,,,,31,,,,03,Trống,TU-MOCK-03-31
+,,,,,32,,,,03,Trống,TU-MOCK-03-32
+Nhân viên mô phỏng 090,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-090,33,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-33
+,,,,,34,,,,03,Trống,TU-MOCK-03-34
+,,,,,35,,,,03,Trống,TU-MOCK-03-35
+,,,,,36,,,,03,Trống,TU-MOCK-03-36
+Nhân viên mô phỏng 091,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-091,37,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-37
+,,,,,38,,,,03,Trống,TU-MOCK-03-38
+Nhân viên mô phỏng 092,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-092,39,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-39
+,,,,,40,,,,03,Trống,TU-MOCK-03-40
+Nhân viên mô phỏng 095,Nhân viên hậu cần,Hậu cần,,NV-MOCK-095,41,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-41
+,,,,,42,,,,03,Trống,TU-MOCK-03-42
+,,,,,43,,,,03,Trống,TU-MOCK-03-43
+,,,,,44,,,,03,Trống,TU-MOCK-03-44
+Nhân viên mô phỏng 096,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-096,45,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-45
+,,,,,46,,,,03,Trống,TU-MOCK-03-46
+,,,,,47,,,,03,Trống,TU-MOCK-03-47
+,,,,,48,,,,03,Trống,TU-MOCK-03-48
+Nhân viên mô phỏng 097,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-097,49,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-49
+,,,,,50,,,,03,Trống,TU-MOCK-03-50
+,,,,,51,,,,03,Trống,TU-MOCK-03-51
+Nhân viên mô phỏng 100,Điều dưỡng,Ngoại khoa,,NV-MOCK-100,52,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-52
+Nhân viên mô phỏng 101,Nhân viên hậu cần,Hậu cần,,NV-MOCK-101,53,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-53
+,,,,,54,,,,03,Trống,TU-MOCK-03-54
+,,,,,55,,,,03,Trống,TU-MOCK-03-55
+,,,,,56,,,,03,Trống,TU-MOCK-03-56
+Nhân viên mô phỏng 102,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-102,57,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-57
+,,,,,58,,,,03,Trống,TU-MOCK-03-58
+,,,,,59,,,,03,Trống,TU-MOCK-03-59
+,,,,,60,,,,03,Trống,TU-MOCK-03-60
+Nhân viên mô phỏng 105,Điều dưỡng,Nội khoa,,NV-MOCK-105,61,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-61
+,,,,,62,,,,03,Trống,TU-MOCK-03-62
+,,,,,63,,,,03,Trống,TU-MOCK-03-63
+,,,,,64,,,,03,Trống,TU-MOCK-03-64
+Nhân viên mô phỏng 106,Điều dưỡng,Ngoại khoa,,NV-MOCK-106,65,2026-08-04,,,03,Đang sử dụng,TU-MOCK-03-65
+,,,,,66,,,,03,Trống,TU-MOCK-03-66
+,,,,,67,,,,03,Trống,TU-MOCK-03-67
+,,,,,68,,,,03,Trống,TU-MOCK-03-68
+Nhân viên mô phỏng 107,Nhân viên hậu cần,Hậu cần,,NV-MOCK-107,69,2026-08-04,2026-10-02,,03,Đã thu hồi,TU-MOCK-03-69
+,,,,,70,,,,03,Trống,TU-MOCK-03-70
+Nhân viên mô phỏng 110,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-110,01,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-01
+,,,,,02,,,,04,Trống,TU-MOCK-04-02
+,,,,,03,,,,04,Trống,TU-MOCK-04-03
+,,,,,04,,,,04,Trống,TU-MOCK-04-04
+Nhân viên mô phỏng 111,Điều dưỡng,Nội khoa,,NV-MOCK-111,05,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-05
+,,,,,06,,,,04,Trống,TU-MOCK-04-06
+,,,,,07,,,,04,Trống,TU-MOCK-04-07
+,,,,,08,,,,04,Trống,TU-MOCK-04-08
+Nhân viên mô phỏng 112,Điều dưỡng,Ngoại khoa,,NV-MOCK-112,09,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-09
+,,,,,10,,,,04,Trống,TU-MOCK-04-10
+,,,,,11,,,,04,Trống,TU-MOCK-04-11
+,,,,,12,,,,04,Trống,TU-MOCK-04-12
+Nhân viên mô phỏng 115,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-115,13,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-13
+,,,,,14,,,,04,Trống,TU-MOCK-04-14
+,,,,,15,,,,04,Trống,TU-MOCK-04-15
+,,,,,16,,,,04,Trống,TU-MOCK-04-16
+Nhân viên mô phỏng 116,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-116,17,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-17
+,,,,,18,,,,04,Trống,TU-MOCK-04-18
+,,,,,19,,,,04,Trống,TU-MOCK-04-19
+,,,,,20,,,,04,Trống,TU-MOCK-04-20
+Nhân viên mô phỏng 117,Điều dưỡng,Nội khoa,,NV-MOCK-117,21,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-21
+,,,,,22,,,,04,Trống,TU-MOCK-04-22
+,,,,,23,,,,04,Trống,TU-MOCK-04-23
+,,,,,24,,,,04,Trống,TU-MOCK-04-24
+Nhân viên mô phỏng 120,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-120,25,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-25
+Nhân viên mô phỏng 121,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-121,26,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-26
+,,,,,27,,,,04,Trống,TU-MOCK-04-27
+,,,,,28,,,,04,Trống,TU-MOCK-04-28
+Nhân viên mô phỏng 122,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-122,29,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-29
+,,,,,30,,,,04,Trống,TU-MOCK-04-30
+,,,,,31,,,,04,Trống,TU-MOCK-04-31
+,,,,,32,,,,04,Trống,TU-MOCK-04-32
+Nhân viên mô phỏng 125,Nhân viên hậu cần,Hậu cần,,NV-MOCK-125,33,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-33
+,,,,,34,,,,04,Trống,TU-MOCK-04-34
+,,,,,35,,,,04,Trống,TU-MOCK-04-35
+,,,,,36,,,,04,Trống,TU-MOCK-04-36
+Nhân viên mô phỏng 126,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-126,37,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-37
+,,,,,38,,,,04,Trống,TU-MOCK-04-38
+Nhân viên mô phỏng 127,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-127,39,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-39
+,,,,,40,,,,04,Trống,TU-MOCK-04-40
+Nhân viên mô phỏng 130,Điều dưỡng,Ngoại khoa,,NV-MOCK-130,41,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-41
+,,,,,42,,,,04,Trống,TU-MOCK-04-42
+,,,,,43,,,,04,Trống,TU-MOCK-04-43
+,,,,,44,,,,04,Trống,TU-MOCK-04-44
+Nhân viên mô phỏng 131,Nhân viên hậu cần,Hậu cần,,NV-MOCK-131,45,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-45
+,,,,,46,,,,04,Trống,TU-MOCK-04-46
+,,,,,47,,,,04,Trống,TU-MOCK-04-47
+,,,,,48,,,,04,Trống,TU-MOCK-04-48
+Nhân viên mô phỏng 132,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-132,49,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-49
+,,,,,50,,,,04,Trống,TU-MOCK-04-50
+,,,,,51,,,,04,Trống,TU-MOCK-04-51
+Nhân viên mô phỏng 135,Điều dưỡng,Nội khoa,,NV-MOCK-135,52,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-52
+Nhân viên mô phỏng 136,Điều dưỡng,Ngoại khoa,,NV-MOCK-136,53,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-53
+,,,,,54,,,,04,Trống,TU-MOCK-04-54
+,,,,,55,,,,04,Trống,TU-MOCK-04-55
+,,,,,56,,,,04,Trống,TU-MOCK-04-56
+Nhân viên mô phỏng 137,Nhân viên hậu cần,Hậu cần,,NV-MOCK-137,57,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-57
+,,,,,58,,,,04,Trống,TU-MOCK-04-58
+,,,,,59,,,,04,Trống,TU-MOCK-04-59
+,,,,,60,,,,04,Trống,TU-MOCK-04-60
+Nhân viên mô phỏng 140,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-140,61,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-61
+,,,,,62,,,,04,Trống,TU-MOCK-04-62
+,,,,,63,,,,04,Trống,TU-MOCK-04-63
+,,,,,64,,,,04,Trống,TU-MOCK-04-64
+Nhân viên mô phỏng 141,Điều dưỡng,Nội khoa,,NV-MOCK-141,65,2026-08-04,,,04,Đang sử dụng,TU-MOCK-04-65
+,,,,,66,,,,04,Trống,TU-MOCK-04-66
+,,,,,67,,,,04,Trống,TU-MOCK-04-67
+,,,,,68,,,,04,Trống,TU-MOCK-04-68
+Nhân viên mô phỏng 142,Điều dưỡng,Ngoại khoa,,NV-MOCK-142,69,2026-08-04,2026-10-02,,04,Đã thu hồi,TU-MOCK-04-69
+,,,,,70,,,,04,Trống,TU-MOCK-04-70
+Nhân viên mô phỏng 145,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-145,01,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-01
+,,,,,02,,,,05,Trống,TU-MOCK-05-02
+,,,,,03,,,,05,Trống,TU-MOCK-05-03
+,,,,,04,,,,05,Trống,TU-MOCK-05-04
+Nhân viên mô phỏng 146,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-146,05,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-05
+,,,,,06,,,,05,Trống,TU-MOCK-05-06
+,,,,,07,,,,05,Trống,TU-MOCK-05-07
+,,,,,08,,,,05,Trống,TU-MOCK-05-08
+Nhân viên mô phỏng 147,Điều dưỡng,Nội khoa,,NV-MOCK-147,09,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-09
+,,,,,10,,,,05,Trống,TU-MOCK-05-10
+,,,,,11,,,,05,Trống,TU-MOCK-05-11
+,,,,,12,,,,05,Trống,TU-MOCK-05-12
+Nhân viên mô phỏng 150,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-150,13,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-13
+,,,,,14,,,,05,Trống,TU-MOCK-05-14
+,,,,,15,,,,05,Trống,TU-MOCK-05-15
+,,,,,16,,,,05,Trống,TU-MOCK-05-16
+Nhân viên mô phỏng 151,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-151,17,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-17
+,,,,,18,,,,05,Trống,TU-MOCK-05-18
+,,,,,19,,,,05,Trống,TU-MOCK-05-19
+,,,,,20,,,,05,Trống,TU-MOCK-05-20
+Nhân viên mô phỏng 152,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-152,21,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-21
+,,,,,22,,,,05,Trống,TU-MOCK-05-22
+,,,,,23,,,,05,Trống,TU-MOCK-05-23
+,,,,,24,,,,05,Trống,TU-MOCK-05-24
+Nhân viên mô phỏng 155,Nhân viên hậu cần,Hậu cần,,NV-MOCK-155,25,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-25
+,,,,,26,,,,05,Trống,TU-MOCK-05-26
+,,,,,27,,,,05,Trống,TU-MOCK-05-27
+,,,,,28,,,,05,Trống,TU-MOCK-05-28
+Nhân viên mô phỏng 156,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-156,29,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-29
+,,,,,30,,,,05,Trống,TU-MOCK-05-30
+,,,,,31,,,,05,Trống,TU-MOCK-05-31
+,,,,,32,,,,05,Trống,TU-MOCK-05-32
+Nhân viên mô phỏng 157,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-157,33,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-33
+,,,,,34,,,,05,Trống,TU-MOCK-05-34
+,,,,,35,,,,05,Trống,TU-MOCK-05-35
+,,,,,36,,,,05,Trống,TU-MOCK-05-36
+Nhân viên mô phỏng 160,Điều dưỡng,Ngoại khoa,,NV-MOCK-160,37,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-37
+,,,,,38,,,,05,Trống,TU-MOCK-05-38
+,,,,,39,,,,05,Trống,TU-MOCK-05-39
+,,,,,40,,,,05,Trống,TU-MOCK-05-40
+Nhân viên mô phỏng 161,Nhân viên hậu cần,Hậu cần,,NV-MOCK-161,41,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-41
+,,,,,42,,,,05,Trống,TU-MOCK-05-42
+,,,,,43,,,,05,Trống,TU-MOCK-05-43
+,,,,,44,,,,05,Trống,TU-MOCK-05-44
+Nhân viên mô phỏng 162,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-162,45,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-45
+,,,,,46,,,,05,Trống,TU-MOCK-05-46
+,,,,,47,,,,05,Trống,TU-MOCK-05-47
+,,,,,48,,,,05,Trống,TU-MOCK-05-48
+Nhân viên mô phỏng 165,Điều dưỡng,Nội khoa,,NV-MOCK-165,49,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-49
+,,,,,50,,,,05,Trống,TU-MOCK-05-50
+,,,,,51,,,,05,Trống,TU-MOCK-05-51
+,,,,,52,,,,05,Trống,TU-MOCK-05-52
+Nhân viên mô phỏng 166,Điều dưỡng,Ngoại khoa,,NV-MOCK-166,53,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-53
+,,,,,54,,,,05,Trống,TU-MOCK-05-54
+,,,,,55,,,,05,Trống,TU-MOCK-05-55
+,,,,,56,,,,05,Trống,TU-MOCK-05-56
+Nhân viên mô phỏng 167,Nhân viên hậu cần,Hậu cần,,NV-MOCK-167,57,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-57
+,,,,,58,,,,05,Trống,TU-MOCK-05-58
+,,,,,59,,,,05,Trống,TU-MOCK-05-59
+,,,,,60,,,,05,Trống,TU-MOCK-05-60
+Nhân viên mô phỏng 170,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-170,61,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-61
+,,,,,62,,,,05,Trống,TU-MOCK-05-62
+,,,,,63,,,,05,Trống,TU-MOCK-05-63
+,,,,,64,,,,05,Trống,TU-MOCK-05-64
+Nhân viên mô phỏng 171,Điều dưỡng,Nội khoa,,NV-MOCK-171,65,2026-08-04,,,05,Đang sử dụng,TU-MOCK-05-65
+,,,,,66,,,,05,Trống,TU-MOCK-05-66
+,,,,,67,,,,05,Trống,TU-MOCK-05-67
+,,,,,68,,,,05,Trống,TU-MOCK-05-68
+Nhân viên mô phỏng 172,Điều dưỡng,Ngoại khoa,,NV-MOCK-172,69,2026-08-04,2026-10-02,,05,Đã thu hồi,TU-MOCK-05-69
+,,,,,70,,,,05,Trống,TU-MOCK-05-70
+Nhân viên mô phỏng 175,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-175,01,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-01
+,,,,,02,,,,06,Trống,TU-MOCK-06-02
+,,,,,03,,,,06,Trống,TU-MOCK-06-03
+,,,,,04,,,,06,Trống,TU-MOCK-06-04
+Nhân viên mô phỏng 176,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-176,05,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-05
+,,,,,06,,,,06,Trống,TU-MOCK-06-06
+,,,,,07,,,,06,Trống,TU-MOCK-06-07
+,,,,,08,,,,06,Trống,TU-MOCK-06-08
+Nhân viên mô phỏng 177,Điều dưỡng,Nội khoa,,NV-MOCK-177,09,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-09
+,,,,,10,,,,06,Trống,TU-MOCK-06-10
+,,,,,11,,,,06,Trống,TU-MOCK-06-11
+,,,,,12,,,,06,Trống,TU-MOCK-06-12
+Nhân viên mô phỏng 180,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-180,13,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-13
+,,,,,14,,,,06,Trống,TU-MOCK-06-14
+,,,,,15,,,,06,Trống,TU-MOCK-06-15
+,,,,,16,,,,06,Trống,TU-MOCK-06-16
+Nhân viên mô phỏng 181,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-181,17,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-17
+,,,,,18,,,,06,Trống,TU-MOCK-06-18
+,,,,,19,,,,06,Trống,TU-MOCK-06-19
+,,,,,20,,,,06,Trống,TU-MOCK-06-20
+Nhân viên mô phỏng 182,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-182,21,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-21
+,,,,,22,,,,06,Trống,TU-MOCK-06-22
+,,,,,23,,,,06,Trống,TU-MOCK-06-23
+,,,,,24,,,,06,Trống,TU-MOCK-06-24
+Nhân viên mô phỏng 185,Nhân viên hậu cần,Hậu cần,,NV-MOCK-185,25,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-25
+,,,,,26,,,,06,Trống,TU-MOCK-06-26
+,,,,,27,,,,06,Trống,TU-MOCK-06-27
+,,,,,28,,,,06,Trống,TU-MOCK-06-28
+Nhân viên mô phỏng 186,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-186,29,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-29
+,,,,,30,,,,06,Trống,TU-MOCK-06-30
+,,,,,31,,,,06,Trống,TU-MOCK-06-31
+,,,,,32,,,,06,Trống,TU-MOCK-06-32
+Nhân viên mô phỏng 187,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-187,33,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-33
+,,,,,34,,,,06,Trống,TU-MOCK-06-34
+,,,,,35,,,,06,Trống,TU-MOCK-06-35
+,,,,,36,,,,06,Trống,TU-MOCK-06-36
+Nhân viên mô phỏng 190,Điều dưỡng,Ngoại khoa,,NV-MOCK-190,37,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-37
+,,,,,38,,,,06,Trống,TU-MOCK-06-38
+,,,,,39,,,,06,Trống,TU-MOCK-06-39
+,,,,,40,,,,06,Trống,TU-MOCK-06-40
+Nhân viên mô phỏng 191,Nhân viên hậu cần,Hậu cần,,NV-MOCK-191,41,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-41
+,,,,,42,,,,06,Trống,TU-MOCK-06-42
+,,,,,43,,,,06,Trống,TU-MOCK-06-43
+,,,,,44,,,,06,Trống,TU-MOCK-06-44
+Nhân viên mô phỏng 192,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-192,45,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-45
+,,,,,46,,,,06,Trống,TU-MOCK-06-46
+,,,,,47,,,,06,Trống,TU-MOCK-06-47
+,,,,,48,,,,06,Trống,TU-MOCK-06-48
+Nhân viên mô phỏng 195,Điều dưỡng,Nội khoa,,NV-MOCK-195,49,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-49
+,,,,,50,,,,06,Trống,TU-MOCK-06-50
+,,,,,51,,,,06,Trống,TU-MOCK-06-51
+,,,,,52,,,,06,Trống,TU-MOCK-06-52
+Nhân viên mô phỏng 196,Điều dưỡng,Ngoại khoa,,NV-MOCK-196,53,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-53
+,,,,,54,,,,06,Trống,TU-MOCK-06-54
+,,,,,55,,,,06,Trống,TU-MOCK-06-55
+,,,,,56,,,,06,Trống,TU-MOCK-06-56
+Nhân viên mô phỏng 197,Nhân viên hậu cần,Hậu cần,,NV-MOCK-197,57,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-57
+,,,,,58,,,,06,Trống,TU-MOCK-06-58
+,,,,,59,,,,06,Trống,TU-MOCK-06-59
+,,,,,60,,,,06,Trống,TU-MOCK-06-60
+Nhân viên mô phỏng 200,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-200,61,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-61
+,,,,,62,,,,06,Trống,TU-MOCK-06-62
+,,,,,63,,,,06,Trống,TU-MOCK-06-63
+,,,,,64,,,,06,Trống,TU-MOCK-06-64
+Nhân viên mô phỏng 201,Điều dưỡng,Nội khoa,,NV-MOCK-201,65,2026-08-04,,,06,Đang sử dụng,TU-MOCK-06-65
+,,,,,66,,,,06,Trống,TU-MOCK-06-66
+,,,,,67,,,,06,Trống,TU-MOCK-06-67
+,,,,,68,,,,06,Trống,TU-MOCK-06-68
+Nhân viên mô phỏng 202,Điều dưỡng,Ngoại khoa,,NV-MOCK-202,69,2026-08-04,2026-10-02,,06,Đã thu hồi,TU-MOCK-06-69
+,,,,,70,,,,06,Trống,TU-MOCK-06-70
+Nhân viên mô phỏng 205,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-205,01,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-01
+,,,,,02,,,,07,Trống,TU-MOCK-07-02
+,,,,,03,,,,07,Trống,TU-MOCK-07-03
+,,,,,04,,,,07,Trống,TU-MOCK-07-04
+Nhân viên mô phỏng 206,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-206,05,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-05
+,,,,,06,,,,07,Trống,TU-MOCK-07-06
+,,,,,07,,,,07,Trống,TU-MOCK-07-07
+,,,,,08,,,,07,Trống,TU-MOCK-07-08
+Nhân viên mô phỏng 207,Điều dưỡng,Nội khoa,,NV-MOCK-207,09,2026-08-04,2026-10-02,,07,Đã thu hồi,TU-MOCK-07-09
+,,,,,10,,,,07,Trống,TU-MOCK-07-10
+,,,,,11,,,,07,Trống,TU-MOCK-07-11
+,,,,,12,,,,07,Trống,TU-MOCK-07-12
+Nhân viên mô phỏng 210,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-210,13,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-13
+,,,,,14,,,,07,Trống,TU-MOCK-07-14
+,,,,,15,,,,07,Trống,TU-MOCK-07-15
+,,,,,16,,,,07,Trống,TU-MOCK-07-16
+Nhân viên mô phỏng 211,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-211,17,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-17
+,,,,,18,,,,07,Trống,TU-MOCK-07-18
+,,,,,19,,,,07,Trống,TU-MOCK-07-19
+,,,,,20,,,,07,Trống,TU-MOCK-07-20
+Nhân viên mô phỏng 212,Kỹ thuật viên,Chẩn đoán hình ảnh,,NV-MOCK-212,21,2026-08-04,2026-10-02,,07,Đã thu hồi,TU-MOCK-07-21
+,,,,,22,,,,07,Trống,TU-MOCK-07-22
+,,,,,23,,,,07,Trống,TU-MOCK-07-23
+,,,,,24,,,,07,Trống,TU-MOCK-07-24
+Nhân viên mô phỏng 215,Nhân viên hậu cần,Hậu cần,,NV-MOCK-215,25,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-25
+,,,,,26,,,,07,Trống,TU-MOCK-07-26
+,,,,,27,,,,07,Trống,TU-MOCK-07-27
+,,,,,28,,,,07,Trống,TU-MOCK-07-28
+Nhân viên mô phỏng 216,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-216,29,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-29
+,,,,,30,,,,07,Trống,TU-MOCK-07-30
+,,,,,31,,,,07,Trống,TU-MOCK-07-31
+,,,,,32,,,,07,Trống,TU-MOCK-07-32
+Nhân viên mô phỏng 217,Kỹ thuật viên,Xét nghiệm,,NV-MOCK-217,33,2026-08-04,2026-10-02,,07,Đã thu hồi,TU-MOCK-07-33
+,,,,,34,,,,07,Trống,TU-MOCK-07-34
+,,,,,35,,,,07,Trống,TU-MOCK-07-35
+,,,,,36,,,,07,Trống,TU-MOCK-07-36
+Nhân viên mô phỏng 220,Điều dưỡng,Ngoại khoa,,NV-MOCK-220,37,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-37
+,,,,,38,,,,07,Trống,TU-MOCK-07-38
+,,,,,39,,,,07,Trống,TU-MOCK-07-39
+,,,,,40,,,,07,Trống,TU-MOCK-07-40
+Nhân viên mô phỏng 221,Nhân viên hậu cần,Hậu cần,,NV-MOCK-221,41,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-41
+,,,,,42,,,,07,Trống,TU-MOCK-07-42
+,,,,,43,,,,07,Trống,TU-MOCK-07-43
+,,,,,44,,,,07,Trống,TU-MOCK-07-44
+Nhân viên mô phỏng 222,Nhân viên dinh dưỡng,Dinh dưỡng,,NV-MOCK-222,45,2026-08-04,2026-10-02,,07,Đã thu hồi,TU-MOCK-07-45
+,,,,,46,,,,07,Trống,TU-MOCK-07-46
+,,,,,47,,,,07,Trống,TU-MOCK-07-47
+,,,,,48,,,,07,Trống,TU-MOCK-07-48
+Nhân viên mô phỏng 225,Điều dưỡng,Nội khoa,,NV-MOCK-225,49,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-49
+,,,,,50,,,,07,Trống,TU-MOCK-07-50
+,,,,,51,,,,07,Trống,TU-MOCK-07-51
+,,,,,52,,,,07,Trống,TU-MOCK-07-52
+Nhân viên mô phỏng 226,Điều dưỡng,Ngoại khoa,,NV-MOCK-226,53,2026-08-04,,,07,Đang sử dụng,TU-MOCK-07-53
+,,,,,54,,,,07,Trống,TU-MOCK-07-54
+,,,,,55,,,,07,Trống,TU-MOCK-07-55
+,,,,,56,,,,07,Trống,TU-MOCK-07-56
+Nhân viên mô phỏng 227,Nhân viên hậu cần,Hậu cần,,NV-MOCK-227,57,2026-08-04,2026-10-02,,07,Đã thu hồi,TU-MOCK-07-57
+,,,,,58,,,,07,Trống,TU-MOCK-07-58
+,,,,,59,,,,07,Trống,TU-MOCK-07-59
+,,,,,60,,,,07,Trống,TU-MOCK-07-60

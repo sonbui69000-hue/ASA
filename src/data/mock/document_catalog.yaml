@@ -1,0 +1,93 @@
+schema_version: 1
+synthetic: true
+roles: &id001
+- nhan_vien
+- hanh_chinh
+- mua_sam
+- tai_chinh
+- ky_thuat
+documents:
+- document_id: CS-DP-01-V1
+  title: Quy định cấp phát đồng phục
+  path: documents/policies/cs-dong-phuc-v1.pdf
+  version: v1
+  type: policy
+  classification: simulated_internal
+  effective_from: '2026-01-01'
+  effective_until_inclusive: '2026-08-31'
+  supersedes: null
+  amends: null
+  amended_by: null
+  allowed_roles: *id001
+  page_count: 1
+- document_id: CS-DP-01-V2
+  title: Quy định cấp phát đồng phục
+  path: documents/policies/cs-dong-phuc-v2.pdf
+  version: v2
+  type: policy
+  classification: simulated_internal
+  effective_from: '2026-09-01'
+  effective_until_inclusive: null
+  supersedes: CS-DP-01-V1
+  amends: null
+  amended_by: null
+  allowed_roles: *id001
+  page_count: 1
+- document_id: CS-TU-01
+  title: Quy định quản lý tủ nhân viên
+  path: documents/policies/cs-quan-ly-tu.pdf
+  version: v1
+  type: policy
+  classification: simulated_internal
+  effective_from: '2026-07-01'
+  effective_until_inclusive: null
+  supersedes: null
+  amends: null
+  amended_by: null
+  allowed_roles: *id001
+  page_count: 1
+- document_id: HD-DP-01
+  title: Hợp đồng cung cấp đồng phục
+  path: documents/contracts/hd-cung-cap-dong-phuc.pdf
+  version: v1
+  type: contract
+  classification: simulated_confidential
+  effective_from: '2026-07-01'
+  effective_until_inclusive: '2026-12-31'
+  supersedes: null
+  amends: null
+  amended_by: PL-DP-01
+  allowed_roles: &id002
+  - mua_sam
+  - tai_chinh
+  page_count: 1
+- document_id: PL-DP-01
+  title: Phụ lục điều chỉnh lịch giao đồng phục
+  path: documents/contracts/pl-dieu-chinh-lich-giao.pdf
+  version: v1
+  type: amendment
+  classification: simulated_confidential
+  effective_from: '2026-09-15'
+  effective_until_inclusive: '2026-12-31'
+  supersedes: null
+  amends: HD-DP-01
+  amended_by: null
+  allowed_roles: *id002
+  page_count: 1
+- document_id: HD-BT-01
+  title: Hợp đồng bảo trì tủ nhân viên
+  path: documents/contracts/hd-bao-tri-tu.pdf
+  version: v1
+  type: contract
+  classification: simulated_confidential
+  effective_from: '2026-07-01'
+  effective_until_inclusive: '2027-06-30'
+  supersedes: null
+  amends: null
+  amended_by: null
+  allowed_roles:
+  - hanh_chinh
+  - ky_thuat
+  - mua_sam
+  - tai_chinh
+  page_count: 1

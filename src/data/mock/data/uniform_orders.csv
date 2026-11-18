@@ -1,0 +1,181 @@
+﻿STT,Ngày yêu cầu,Khoa,Loại đồng phục,Mã NV,Họ tên CBNV,Chức danh,giới tính,Số lượng,Size,Số lượng cấp phát,Ngày cấp phát,Mã hàng,Tên hàng,Mã dòng
+1,2026-07-27,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-001,Nhân viên mô phỏng 001,Kỹ thuật viên,Nam,2,M,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-001
+2,2026-07-27,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-002,Nhân viên mô phỏng 002,Kỹ thuật viên,Nam,2,XS,1,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-002
+3,2026-07-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-003,Nhân viên mô phỏng 003,Điều dưỡng,Nữ,2,L,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-003
+4,2026-07-27,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-004,Nhân viên mô phỏng 004,Điều dưỡng,Nữ,2,XL,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-004
+5,2026-07-27,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-005,Nhân viên mô phỏng 005,Nhân viên hậu cần,Nam,2,XS,2,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-005
+6,2026-07-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-006,Nhân viên mô phỏng 006,Nhân viên dinh dưỡng,Nam,2,XXL,2,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-006
+7,2026-07-27,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-007,Nhân viên mô phỏng 007,Kỹ thuật viên,Nam,2,M,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-007
+8,2026-07-27,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-008,Nhân viên mô phỏng 008,Kỹ thuật viên,Nữ,2,L,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-008
+9,2026-07-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-009,Nhân viên mô phỏng 009,Điều dưỡng,Nữ,2,XXL,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-009
+10,2026-07-27,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-010,Nhân viên mô phỏng 010,Điều dưỡng,Nam,2,XS,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-010
+11,2026-07-27,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-011,Nhân viên mô phỏng 011,Nhân viên hậu cần,Nam,2,XS,2,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-011
+12,2026-07-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-012,Nhân viên mô phỏng 012,Nhân viên dinh dưỡng,Nam,2,XS,1,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-012
+13,2026-07-27,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-013,Nhân viên mô phỏng 013,Kỹ thuật viên,Nữ,2,XL,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-013
+14,2026-07-27,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-014,Nhân viên mô phỏng 014,Kỹ thuật viên,Nữ,2,XS,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-014
+15,2026-07-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-015,Nhân viên mô phỏng 015,Điều dưỡng,Nam,2,XL,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-015
+16,2026-07-27,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-016,Nhân viên mô phỏng 016,Điều dưỡng,Nam,2,L,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-016
+17,2026-07-27,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-017,Nhân viên mô phỏng 017,Nhân viên hậu cần,Nam,2,S,2,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-017
+18,2026-07-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-018,Nhân viên mô phỏng 018,Nhân viên dinh dưỡng,Nữ,2,L,2,2026-08-10,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-018
+19,2026-07-27,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-019,Nhân viên mô phỏng 019,Kỹ thuật viên,Nữ,2,XXL,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-019
+20,2026-07-27,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-020,Nhân viên mô phỏng 020,Kỹ thuật viên,Nam,2,S,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-020
+21,2026-07-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-021,Nhân viên mô phỏng 021,Điều dưỡng,Nam,2,L,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-021
+22,2026-07-27,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-022,Nhân viên mô phỏng 022,Điều dưỡng,Nam,2,XS,1,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-022
+23,2026-07-27,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-023,Nhân viên mô phỏng 023,Nhân viên hậu cần,Nữ,2,S,2,2026-08-10,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-023
+24,2026-07-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-024,Nhân viên mô phỏng 024,Nhân viên dinh dưỡng,Nữ,2,XS,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-024
+25,2026-07-27,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-025,Nhân viên mô phỏng 025,Kỹ thuật viên,Nam,2,S,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-025
+26,2026-07-27,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-026,Nhân viên mô phỏng 026,Kỹ thuật viên,Nam,2,XXL,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-026
+27,2026-07-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-027,Nhân viên mô phỏng 027,Điều dưỡng,Nam,2,XS,2,2026-08-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-027
+28,2026-07-27,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-028,Nhân viên mô phỏng 028,Điều dưỡng,Nữ,2,XXL,2,2026-08-10,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-028
+29,2026-07-27,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-029,Nhân viên mô phỏng 029,Nhân viên hậu cần,Nữ,2,XXL,2,2026-08-10,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-029
+30,2026-07-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-030,Nhân viên mô phỏng 030,Nhân viên dinh dưỡng,Nam,2,L,2,2026-08-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-030
+31,2026-09-01,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-031,Nhân viên mô phỏng 031,Kỹ thuật viên,Nam,3,M,3,2026-09-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-031
+32,2026-09-02,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-032,Nhân viên mô phỏng 032,Kỹ thuật viên,Nam,3,S,2,2026-09-16,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-032
+33,2026-09-03,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-033,Nhân viên mô phỏng 033,Điều dưỡng,Nữ,3,XL,3,2026-09-17,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-033
+34,2026-09-04,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-034,Nhân viên mô phỏng 034,Điều dưỡng,Nữ,3,XS,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-034
+35,2026-09-05,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-035,Nhân viên mô phỏng 035,Nhân viên hậu cần,Nam,2,M,2,2026-09-19,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-035
+36,2026-09-06,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-036,Nhân viên mô phỏng 036,Nhân viên dinh dưỡng,Nam,2,L,2,2026-09-20,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-036
+37,2026-09-07,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-037,Nhân viên mô phỏng 037,Kỹ thuật viên,Nam,3,XS,3,2026-09-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-037
+38,2026-09-08,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-038,Nhân viên mô phỏng 038,Kỹ thuật viên,Nữ,3,XXL,3,2026-09-22,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-038
+39,2026-09-09,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-039,Nhân viên mô phỏng 039,Điều dưỡng,Nữ,3,L,3,2026-09-23,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-039
+40,2026-09-10,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-040,Nhân viên mô phỏng 040,Điều dưỡng,Nam,3,S,3,2026-09-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-040
+41,2026-09-11,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-041,Nhân viên mô phỏng 041,Nhân viên hậu cần,Nam,2,XXL,2,2026-09-25,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-041
+42,2026-09-12,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-042,Nhân viên mô phỏng 042,Nhân viên dinh dưỡng,Nam,2,M,1,2026-09-26,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-042
+43,2026-09-13,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-043,Nhân viên mô phỏng 043,Kỹ thuật viên,Nữ,3,XS,3,2026-09-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-043
+44,2026-09-14,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-044,Nhân viên mô phỏng 044,Kỹ thuật viên,Nữ,3,XS,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-044
+45,2026-09-15,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-045,Nhân viên mô phỏng 045,Điều dưỡng,Nam,3,S,3,2026-09-29,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-045
+46,2026-09-16,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-046,Nhân viên mô phỏng 046,Điều dưỡng,Nam,3,XXL,3,2026-09-30,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-046
+47,2026-09-17,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-047,Nhân viên mô phỏng 047,Nhân viên hậu cần,Nam,2,XXL,2,2026-10-01,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-047
+48,2026-09-18,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-048,Nhân viên mô phỏng 048,Nhân viên dinh dưỡng,Nữ,2,S,2,2026-10-02,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-048
+49,2026-09-19,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-049,Nhân viên mô phỏng 049,Kỹ thuật viên,Nữ,3,M,3,2026-10-03,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-049
+50,2026-09-20,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-050,Nhân viên mô phỏng 050,Kỹ thuật viên,Nam,3,L,3,2026-10-04,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-050
+51,2026-09-21,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-051,Nhân viên mô phỏng 051,Điều dưỡng,Nam,3,L,3,2026-10-05,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-051
+52,2026-09-22,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-052,Nhân viên mô phỏng 052,Điều dưỡng,Nam,3,L,2,2026-10-06,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-052
+53,2026-09-23,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-053,Nhân viên mô phỏng 053,Nhân viên hậu cần,Nữ,2,M,2,2026-10-07,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-053
+54,2026-09-24,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-054,Nhân viên mô phỏng 054,Nhân viên dinh dưỡng,Nữ,2,XS,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-054
+55,2026-09-25,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-055,Nhân viên mô phỏng 055,Kỹ thuật viên,Nam,3,S,3,2026-10-09,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-055
+56,2026-09-26,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-056,Nhân viên mô phỏng 056,Kỹ thuật viên,Nam,3,S,3,2026-10-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-056
+57,2026-09-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-057,Nhân viên mô phỏng 057,Điều dưỡng,Nam,3,S,3,2026-10-11,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-057
+58,2026-09-28,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-058,Nhân viên mô phỏng 058,Điều dưỡng,Nữ,3,S,3,2026-10-12,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-058
+59,2026-09-29,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-059,Nhân viên mô phỏng 059,Nhân viên hậu cần,Nữ,2,L,2,2026-10-13,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-059
+60,2026-09-30,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-060,Nhân viên mô phỏng 060,Nhân viên dinh dưỡng,Nam,2,XS,2,2026-10-14,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-060
+61,2026-10-01,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-061,Nhân viên mô phỏng 061,Kỹ thuật viên,Nam,3,XXL,3,2026-10-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-061
+62,2026-10-02,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-062,Nhân viên mô phỏng 062,Kỹ thuật viên,Nam,3,L,2,2026-10-16,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-062
+63,2026-10-03,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-063,Nhân viên mô phỏng 063,Điều dưỡng,Nữ,3,XL,3,2026-10-17,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-063
+64,2026-10-04,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-064,Nhân viên mô phỏng 064,Điều dưỡng,Nữ,3,L,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-064
+65,2026-10-05,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-065,Nhân viên mô phỏng 065,Nhân viên hậu cần,Nam,2,XL,2,2026-10-19,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-065
+66,2026-10-06,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-066,Nhân viên mô phỏng 066,Nhân viên dinh dưỡng,Nam,2,XS,2,2026-10-20,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-066
+67,2026-10-07,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-067,Nhân viên mô phỏng 067,Kỹ thuật viên,Nam,3,XL,3,2026-10-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-067
+68,2026-10-08,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-068,Nhân viên mô phỏng 068,Kỹ thuật viên,Nữ,3,S,3,2026-10-22,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-068
+69,2026-10-09,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-069,Nhân viên mô phỏng 069,Điều dưỡng,Nữ,3,M,3,2026-10-23,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-069
+70,2026-10-10,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-070,Nhân viên mô phỏng 070,Điều dưỡng,Nam,3,S,3,2026-10-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-070
+71,2026-10-11,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-071,Nhân viên mô phỏng 071,Nhân viên hậu cần,Nam,2,XL,2,2026-10-25,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-071
+72,2026-10-12,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-072,Nhân viên mô phỏng 072,Nhân viên dinh dưỡng,Nam,2,M,1,2026-10-26,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-072
+73,2026-10-13,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-073,Nhân viên mô phỏng 073,Kỹ thuật viên,Nữ,3,XL,3,2026-10-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-073
+74,2026-10-14,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-074,Nhân viên mô phỏng 074,Kỹ thuật viên,Nữ,3,S,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-074
+75,2026-10-15,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-075,Nhân viên mô phỏng 075,Điều dưỡng,Nam,3,XS,3,2026-10-29,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-075
+76,2026-09-01,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-076,Nhân viên mô phỏng 076,Điều dưỡng,Nam,3,XS,3,2026-09-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-076
+77,2026-09-02,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-077,Nhân viên mô phỏng 077,Nhân viên hậu cần,Nam,2,XXL,2,2026-09-16,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-077
+78,2026-09-03,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-078,Nhân viên mô phỏng 078,Nhân viên dinh dưỡng,Nữ,2,XL,2,2026-09-17,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-078
+79,2026-09-04,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-079,Nhân viên mô phỏng 079,Kỹ thuật viên,Nữ,3,XXL,3,2026-09-18,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-079
+80,2026-09-05,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-080,Nhân viên mô phỏng 080,Kỹ thuật viên,Nam,3,M,3,2026-09-19,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-080
+81,2026-09-06,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-081,Nhân viên mô phỏng 081,Điều dưỡng,Nam,3,XS,3,2026-09-20,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-081
+82,2026-09-07,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-082,Nhân viên mô phỏng 082,Điều dưỡng,Nam,3,XS,2,2026-09-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-082
+83,2026-09-08,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-083,Nhân viên mô phỏng 083,Nhân viên hậu cần,Nữ,2,S,2,2026-09-22,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-083
+84,2026-09-09,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-084,Nhân viên mô phỏng 084,Nhân viên dinh dưỡng,Nữ,2,XS,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-084
+85,2026-09-10,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-085,Nhân viên mô phỏng 085,Kỹ thuật viên,Nam,3,L,3,2026-09-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-085
+86,2026-09-11,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-086,Nhân viên mô phỏng 086,Kỹ thuật viên,Nam,3,L,3,2026-09-25,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-086
+87,2026-09-12,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-087,Nhân viên mô phỏng 087,Điều dưỡng,Nam,3,XS,3,2026-09-26,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-087
+88,2026-09-13,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-088,Nhân viên mô phỏng 088,Điều dưỡng,Nữ,3,XXL,3,2026-09-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-088
+89,2026-09-14,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-089,Nhân viên mô phỏng 089,Nhân viên hậu cần,Nữ,2,XL,2,2026-09-28,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-089
+90,2026-09-15,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-090,Nhân viên mô phỏng 090,Nhân viên dinh dưỡng,Nam,2,L,2,2026-09-29,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-090
+91,2026-09-16,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-091,Nhân viên mô phỏng 091,Kỹ thuật viên,Nam,3,L,3,2026-09-30,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-091
+92,2026-09-17,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-092,Nhân viên mô phỏng 092,Kỹ thuật viên,Nam,3,S,2,2026-10-01,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-092
+93,2026-09-18,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-093,Nhân viên mô phỏng 093,Điều dưỡng,Nữ,3,M,3,2026-10-02,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-093
+94,2026-09-19,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-094,Nhân viên mô phỏng 094,Điều dưỡng,Nữ,3,L,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-094
+95,2026-09-20,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-095,Nhân viên mô phỏng 095,Nhân viên hậu cần,Nam,2,XS,2,2026-10-04,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-095
+96,2026-09-21,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-096,Nhân viên mô phỏng 096,Nhân viên dinh dưỡng,Nam,2,XL,2,2026-10-05,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-096
+97,2026-09-22,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-097,Nhân viên mô phỏng 097,Kỹ thuật viên,Nam,3,S,3,2026-10-06,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-097
+98,2026-09-23,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-098,Nhân viên mô phỏng 098,Kỹ thuật viên,Nữ,3,L,3,2026-10-07,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-098
+99,2026-09-24,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-099,Nhân viên mô phỏng 099,Điều dưỡng,Nữ,3,L,3,2026-10-08,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-099
+100,2026-09-25,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-100,Nhân viên mô phỏng 100,Điều dưỡng,Nam,3,XS,3,2026-10-09,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-100
+101,2026-09-26,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-101,Nhân viên mô phỏng 101,Nhân viên hậu cần,Nam,2,S,2,2026-10-10,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-101
+102,2026-09-27,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-102,Nhân viên mô phỏng 102,Nhân viên dinh dưỡng,Nam,2,M,1,2026-10-11,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-102
+103,2026-09-28,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-103,Nhân viên mô phỏng 103,Kỹ thuật viên,Nữ,3,M,3,2026-10-12,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-103
+104,2026-09-29,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-104,Nhân viên mô phỏng 104,Kỹ thuật viên,Nữ,3,S,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-104
+105,2026-09-30,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-105,Nhân viên mô phỏng 105,Điều dưỡng,Nam,3,M,3,2026-10-14,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-105
+106,2026-10-01,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-106,Nhân viên mô phỏng 106,Điều dưỡng,Nam,3,XS,3,2026-10-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-106
+107,2026-10-02,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-107,Nhân viên mô phỏng 107,Nhân viên hậu cần,Nam,2,M,2,2026-10-16,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-107
+108,2026-10-03,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-108,Nhân viên mô phỏng 108,Nhân viên dinh dưỡng,Nữ,2,XXL,2,2026-10-17,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-108
+109,2026-10-04,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-109,Nhân viên mô phỏng 109,Kỹ thuật viên,Nữ,3,L,3,2026-10-18,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-109
+110,2026-10-05,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-110,Nhân viên mô phỏng 110,Kỹ thuật viên,Nam,3,XL,3,2026-10-19,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-110
+111,2026-10-06,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-111,Nhân viên mô phỏng 111,Điều dưỡng,Nam,3,S,3,2026-10-20,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-111
+112,2026-10-07,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-112,Nhân viên mô phỏng 112,Điều dưỡng,Nam,3,XXL,2,2026-10-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-112
+113,2026-10-08,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-113,Nhân viên mô phỏng 113,Nhân viên hậu cần,Nữ,2,M,2,2026-10-22,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-113
+114,2026-10-09,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-114,Nhân viên mô phỏng 114,Nhân viên dinh dưỡng,Nữ,2,L,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-114
+115,2026-10-10,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-115,Nhân viên mô phỏng 115,Kỹ thuật viên,Nam,3,S,3,2026-10-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-115
+116,2026-10-11,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-116,Nhân viên mô phỏng 116,Kỹ thuật viên,Nam,3,S,3,2026-10-25,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-116
+117,2026-10-12,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-117,Nhân viên mô phỏng 117,Điều dưỡng,Nam,3,L,3,2026-10-26,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-117
+118,2026-10-13,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-118,Nhân viên mô phỏng 118,Điều dưỡng,Nữ,3,XL,3,2026-10-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-118
+119,2026-10-14,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-119,Nhân viên mô phỏng 119,Nhân viên hậu cần,Nữ,2,XS,2,2026-10-28,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-119
+120,2026-10-15,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-120,Nhân viên mô phỏng 120,Nhân viên dinh dưỡng,Nam,2,XL,2,2026-10-29,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-120
+121,2026-09-01,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-121,Nhân viên mô phỏng 121,Kỹ thuật viên,Nam,3,M,3,2026-09-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-121
+122,2026-09-02,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-122,Nhân viên mô phỏng 122,Kỹ thuật viên,Nam,3,XXL,2,2026-09-16,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-122
+123,2026-09-03,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-123,Nhân viên mô phỏng 123,Điều dưỡng,Nữ,3,L,3,2026-09-17,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-123
+124,2026-09-04,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-124,Nhân viên mô phỏng 124,Điều dưỡng,Nữ,3,XS,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-124
+125,2026-09-05,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-125,Nhân viên mô phỏng 125,Nhân viên hậu cần,Nam,2,L,2,2026-09-19,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-125
+126,2026-09-06,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-126,Nhân viên mô phỏng 126,Nhân viên dinh dưỡng,Nam,2,L,2,2026-09-20,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-126
+127,2026-09-07,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-127,Nhân viên mô phỏng 127,Kỹ thuật viên,Nam,3,L,3,2026-09-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-127
+128,2026-09-08,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-128,Nhân viên mô phỏng 128,Kỹ thuật viên,Nữ,3,XS,3,2026-09-22,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-128
+129,2026-09-09,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-129,Nhân viên mô phỏng 129,Điều dưỡng,Nữ,3,XXL,3,2026-09-23,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-129
+130,2026-09-10,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-130,Nhân viên mô phỏng 130,Điều dưỡng,Nam,3,M,3,2026-09-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-130
+131,2026-09-11,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-131,Nhân viên mô phỏng 131,Nhân viên hậu cần,Nam,2,XS,2,2026-09-25,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-131
+132,2026-09-12,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-132,Nhân viên mô phỏng 132,Nhân viên dinh dưỡng,Nam,2,M,1,2026-09-26,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-132
+133,2026-09-13,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-133,Nhân viên mô phỏng 133,Kỹ thuật viên,Nữ,3,XXL,3,2026-09-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-133
+134,2026-09-14,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-134,Nhân viên mô phỏng 134,Kỹ thuật viên,Nữ,3,S,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-134
+135,2026-09-15,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-135,Nhân viên mô phỏng 135,Điều dưỡng,Nam,3,XXL,3,2026-09-29,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-135
+136,2026-09-16,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-136,Nhân viên mô phỏng 136,Điều dưỡng,Nam,3,S,3,2026-09-30,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-136
+137,2026-09-17,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-137,Nhân viên mô phỏng 137,Nhân viên hậu cần,Nam,2,XS,2,2026-10-01,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-137
+138,2026-09-18,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-138,Nhân viên mô phỏng 138,Nhân viên dinh dưỡng,Nữ,2,XL,2,2026-10-02,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-138
+139,2026-09-19,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-139,Nhân viên mô phỏng 139,Kỹ thuật viên,Nữ,3,XL,3,2026-10-03,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-139
+140,2026-09-20,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-140,Nhân viên mô phỏng 140,Kỹ thuật viên,Nam,3,L,3,2026-10-04,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-140
+141,2026-09-21,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-141,Nhân viên mô phỏng 141,Điều dưỡng,Nam,3,XL,3,2026-10-05,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-141
+142,2026-09-22,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-142,Nhân viên mô phỏng 142,Điều dưỡng,Nam,3,XS,2,2026-10-06,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-142
+143,2026-09-23,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-143,Nhân viên mô phỏng 143,Nhân viên hậu cần,Nữ,2,L,2,2026-10-07,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-143
+144,2026-09-24,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-144,Nhân viên mô phỏng 144,Nhân viên dinh dưỡng,Nữ,2,L,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-144
+145,2026-09-25,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-145,Nhân viên mô phỏng 145,Kỹ thuật viên,Nam,3,M,3,2026-10-09,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-145
+146,2026-09-26,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-146,Nhân viên mô phỏng 146,Kỹ thuật viên,Nam,3,XS,3,2026-10-10,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-146
+147,2026-09-27,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-147,Nhân viên mô phỏng 147,Điều dưỡng,Nam,3,S,3,2026-10-11,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-147
+148,2026-09-28,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-148,Nhân viên mô phỏng 148,Điều dưỡng,Nữ,3,L,3,2026-10-12,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-148
+149,2026-09-29,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-149,Nhân viên mô phỏng 149,Nhân viên hậu cần,Nữ,2,XS,2,2026-10-13,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-149
+150,2026-09-30,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-150,Nhân viên mô phỏng 150,Nhân viên dinh dưỡng,Nam,2,XXL,2,2026-10-14,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-150
+151,2026-10-01,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-151,Nhân viên mô phỏng 151,Kỹ thuật viên,Nam,3,XS,3,2026-10-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-151
+152,2026-10-02,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-152,Nhân viên mô phỏng 152,Kỹ thuật viên,Nam,3,XXL,2,2026-10-16,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-152
+153,2026-10-03,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-153,Nhân viên mô phỏng 153,Điều dưỡng,Nữ,3,XL,3,2026-10-17,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-153
+154,2026-10-04,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-154,Nhân viên mô phỏng 154,Điều dưỡng,Nữ,3,XS,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-154
+155,2026-10-05,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-155,Nhân viên mô phỏng 155,Nhân viên hậu cần,Nam,2,S,2,2026-10-19,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-155
+156,2026-10-06,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-156,Nhân viên mô phỏng 156,Nhân viên dinh dưỡng,Nam,2,XXL,2,2026-10-20,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-156
+157,2026-10-07,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-157,Nhân viên mô phỏng 157,Kỹ thuật viên,Nam,3,XS,3,2026-10-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-157
+158,2026-10-08,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-158,Nhân viên mô phỏng 158,Kỹ thuật viên,Nữ,3,XXL,3,2026-10-22,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-158
+159,2026-10-09,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-159,Nhân viên mô phỏng 159,Điều dưỡng,Nữ,3,M,3,2026-10-23,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-159
+160,2026-10-10,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-160,Nhân viên mô phỏng 160,Điều dưỡng,Nam,3,S,3,2026-10-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-160
+161,2026-10-11,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-161,Nhân viên mô phỏng 161,Nhân viên hậu cần,Nam,2,L,2,2026-10-25,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-161
+162,2026-10-12,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-162,Nhân viên mô phỏng 162,Nhân viên dinh dưỡng,Nam,2,XL,1,2026-10-26,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-162
+163,2026-10-13,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-163,Nhân viên mô phỏng 163,Kỹ thuật viên,Nữ,3,XL,3,2026-10-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-163
+164,2026-10-14,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-164,Nhân viên mô phỏng 164,Kỹ thuật viên,Nữ,3,XXL,0,,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-164
+165,2026-10-15,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-165,Nhân viên mô phỏng 165,Điều dưỡng,Nam,3,XL,3,2026-10-29,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-165
+166,2026-09-01,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-166,Nhân viên mô phỏng 166,Điều dưỡng,Nam,3,XS,3,2026-09-15,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-166
+167,2026-09-02,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-167,Nhân viên mô phỏng 167,Nhân viên hậu cần,Nam,2,XXL,2,2026-09-16,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-167
+168,2026-09-03,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-168,Nhân viên mô phỏng 168,Nhân viên dinh dưỡng,Nữ,2,L,2,2026-09-17,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-168
+169,2026-09-04,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-169,Nhân viên mô phỏng 169,Kỹ thuật viên,Nữ,3,XL,3,2026-09-18,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-169
+170,2026-09-05,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-170,Nhân viên mô phỏng 170,Kỹ thuật viên,Nam,3,L,3,2026-09-19,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-170
+171,2026-09-06,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-171,Nhân viên mô phỏng 171,Điều dưỡng,Nam,3,XS,3,2026-09-20,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-171
+172,2026-09-07,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-172,Nhân viên mô phỏng 172,Điều dưỡng,Nam,3,L,2,2026-09-21,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-172
+173,2026-09-08,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-173,Nhân viên mô phỏng 173,Nhân viên hậu cần,Nữ,2,XL,2,2026-09-22,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-173
+174,2026-09-09,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-174,Nhân viên mô phỏng 174,Nhân viên dinh dưỡng,Nữ,2,M,0,,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-174
+175,2026-09-10,Xét nghiệm,Bộ đồng phục chuyên môn,NV-MOCK-175,Nhân viên mô phỏng 175,Kỹ thuật viên,Nam,3,L,3,2026-09-24,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-175
+176,2026-09-11,Chẩn đoán hình ảnh,Bộ đồng phục chuyên môn,NV-MOCK-176,Nhân viên mô phỏng 176,Kỹ thuật viên,Nam,3,XS,3,2026-09-25,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-176
+177,2026-09-12,Nội khoa,Bộ đồng phục chuyên môn,NV-MOCK-177,Nhân viên mô phỏng 177,Điều dưỡng,Nam,3,L,3,2026-09-26,HH-MOCK-CM-NAM,Bộ đồng phục chuyên môn - Nam,DH-MOCK-177
+178,2026-09-13,Ngoại khoa,Bộ đồng phục chuyên môn,NV-MOCK-178,Nhân viên mô phỏng 178,Điều dưỡng,Nữ,3,M,3,2026-09-27,HH-MOCK-CM-NU,Bộ đồng phục chuyên môn - Nữ,DH-MOCK-178
+179,2026-09-14,Hậu cần,Bộ đồng phục hỗ trợ,NV-MOCK-179,Nhân viên mô phỏng 179,Nhân viên hậu cần,Nữ,2,XXL,2,2026-09-28,HH-MOCK-HT-NU,Bộ đồng phục hỗ trợ - Nữ,DH-MOCK-179
+180,2026-09-15,Dinh dưỡng,Bộ đồng phục hỗ trợ,NV-MOCK-180,Nhân viên mô phỏng 180,Nhân viên dinh dưỡng,Nam,2,XS,2,2026-09-29,HH-MOCK-HT-NAM,Bộ đồng phục hỗ trợ - Nam,DH-MOCK-180

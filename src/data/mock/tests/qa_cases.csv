@@ -1,0 +1,14 @@
+﻿case_id,role,as_of,question_vi,expected_outcome,expected_answer_vi,expected_sources
+QA-01,nhan_vien,2026-11-18,"Đơn DH-MOCK-001 của khoa Xét nghiệm được cấp bao nhiêu bộ theo định mức tại ngày yêu cầu, và thực tế đã cấp bao nhiêu?",answer,Định mức 2 bộ. Đã cấp 2 bộ ngày 2026-08-10.,"CS-DP-01-V1 tr. 1, Điều 2 | data/uniform_orders.csv#DH-MOCK-001"
+QA-02,nhan_vien,2026-11-18,"Ở đơn DH-MOCK-037, nhân viên khoa Xét nghiệm được cấp bao nhiêu theo chính sách tại ngày yêu cầu và đã nhận bao nhiêu?",answer,Định mức 3 bộ. Đã cấp 3 bộ ngày 2026-09-21.,"CS-DP-01-V2 tr. 1, Điều 2 | data/uniform_orders.csv#DH-MOCK-037"
+QA-03,nhan_vien,2026-11-18,Đơn DH-MOCK-002 còn thiếu bao nhiêu bộ đồng phục?,answer,"Yêu cầu 2 bộ, đã cấp 1 bộ, còn thiếu 1 bộ.",data/uniform_orders.csv#DH-MOCK-002
+QA-04,hanh_chinh,2026-11-18,NV-MOCK-001 hiện được cấp tủ nào?,answer,"Tủ 01, dãy 01. Bản ghi tủ 02 cùng dãy đã được thu hồi.","CS-TU-01 tr. 1, Điều 2 | data/male_lockers.csv#TU-MOCK-01-01 | data/male_lockers.csv#TU-MOCK-01-02"
+QA-05,hanh_chinh,2026-11-18,Ai đang sử dụng tủ 06 ở dãy 01?,verify,Cần Hành chính xác minh. Một ô ghi hai người và bản ghi thiếu mã nhân viên.,"CS-TU-01 tr. 1, Điều 3 | data/male_lockers.csv#TU-MOCK-01-06"
+QA-06,mua_sam,2026-10-01,Hai tài liệu có ngày giao đợt 02 khác nhau. Ngày nào áp dụng ngày 01/10/2026?,answer_conflict,Áp dụng ngày 2026-10-15 theo phụ lục có hiệu lực từ 2026-09-15. Hợp đồng gốc ghi 2026-09-30.,"HD-DP-01 tr. 1, Điều 2 | PL-DP-01 tr. 1, Điều 1–2"
+QA-07,mua_sam,2026-09-14,"Tại ngày 14/09/2026, mốc giao đợt 02 đang áp dụng là ngày nào?",answer,2026-09-30.,"HD-DP-01 tr. 1, Điều 2"
+QA-08,nhan_vien,2026-11-18,Tóm tắt điều khoản giá của hợp đồng cung cấp đồng phục.,access_denied,Bạn không có quyền truy cập nội dung hợp đồng.,
+QA-09,ky_thuat,2026-11-18,Phí gọi bổ sung ngoài giờ theo hợp đồng bảo trì tủ là bao nhiêu?,verify,Cần bản rõ của bảng phí để xác minh số tiền.,"HD-BT-01 tr. 1, Điều 3"
+QA-10,tai_chinh,2026-10-16,Đợt giao đồng phục 02 đã thực sự được nghiệm thu ngày nào?,insufficient_evidence,Chưa đủ căn cứ để xác định ngày nghiệm thu thực tế. Tài liệu hiện có ghi mốc giao theo phụ lục.,"HD-DP-01 tr. 1, Điều 3 | PL-DP-01 tr. 1, Điều 1"
+QA-11,ky_thuat,2026-11-18,Hợp đồng bảo trì tủ quy định phản hồi trong bao lâu khi khóa bị kẹt?,answer,Trong 4 giờ làm việc.,"HD-BT-01 tr. 1, Điều 2"
+QA-12,hanh_chinh,2026-11-18,Trích nguyên văn điều khoản thanh toán của hợp đồng cung cấp đồng phục.,access_denied,Bạn không có quyền truy cập nội dung hợp đồng.,
+QA-13,nhan_vien,2026-11-18,Đơn DH-MOCK-004 đã được cấp chưa và ngày cấp là ngày nào?,answer,Chưa cấp. Số lượng cấp phát là 0 và ngày cấp để trống.,data/uniform_orders.csv#DH-MOCK-004
